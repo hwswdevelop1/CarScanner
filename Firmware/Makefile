@@ -99,14 +99,12 @@ CPP_SOURCES =
 CORE_C_INCLUDES = \
 -I. \
 -I./libopencm3/include \
--I./Hal \
 -I./App \
 -I./Libs/mem/inc
 
 CORE_CPP_INCLUDES = \
 -I. \
 -I./libopencm3/include \
--I./Hal \
 -I./App \
 -I./Libs/mem/inc
 
@@ -140,12 +138,13 @@ libopencm3/lib/usb/usb_control.c \
 libopencm3/lib/usb/usb_standard.c \
 
 APP_ASM_SOURCES= \
-STM32F105xx.s \
-Hal/IntLock.s
+App/STM32F105xx.s \
+App/IntLock.s
+
 
 APP_CPP_SOURCES= \
-Hal/Lin.cpp \
-Hal/Usb.cpp \
+App/Lin.cpp \
+App/Usb.cpp \
 App/Main.cpp \
 App/SystemInit.cpp \
 App/UsbPacketBuffer.cpp
