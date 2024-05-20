@@ -228,7 +228,7 @@ private:
 		// Check if descriptor exists
 		const IndexType indexOfFirstDescriptor = *_descrTail;
 		// Free descriptor if, and only if it is first allocated
-		if (index == indexOfFirstDescriptor) {
+		if ( index == indexOfFirstDescriptor ) {
 			// Get descriptor
 			BufferDescriptor*  const descr = &_descr[index];
 			// Get data count associated with descriptor
