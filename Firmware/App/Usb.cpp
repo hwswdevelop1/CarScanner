@@ -19,7 +19,9 @@
 #include "Types.h"
 #include "IntLock.h"
 
-#define BULK_EP_MAXPACKET 		64
+static constexpr const uint8_t usbInEndpointId = 0x81;
+static constexpr const uint8_t usbOutEndpointId = 0x01;
+
 
 usbd_device *usbDevice = nullptr;
 
@@ -83,7 +85,7 @@ const usb_endpoint_descriptor usbEndpointDescr[] = {
 	{
 		.bLength = USB_DT_ENDPOINT_SIZE,
 		.bDescriptorType = USB_DT_ENDPOINT,
-		.bEndpointAddress = 0x01,
+		.bEndpointAddress = usbOutEndpointId,
 		.bmAttributes = USB_ENDPOINT_ATTR_BULK,
 		.wMaxPacketSize = BULK_EP_MAXPACKET,
 		.bInterval = 1,
@@ -91,7 +93,7 @@ const usb_endpoint_descriptor usbEndpointDescr[] = {
 	{
 		.bLength = USB_DT_ENDPOINT_SIZE,
 		.bDescriptorType = USB_DT_ENDPOINT,
-		.bEndpointAddress = 0x81,
+		.bEndpointAddress = usbInEndpointId,
 		.bmAttributes = USB_ENDPOINT_ATTR_BULK,
 		.wMaxPacketSize = BULK_EP_MAXPACKET,
 		.bInterval = 1,
@@ -174,13 +176,15 @@ void usbSetConfigCallback(usbd_device *usbd_dev, uint16_t wValue){
 	((void)wValue);
 
 	// PC to Device endpoint
-	usbd_ep_setup(usbd_dev, 0x01, USB_ENDPOINT_ATTR_BULK, BULK_EP_MAXPACKET,
+	usbd_ep_setup(usbd_dev, usbOutEndpointId, USB_ENDPOINT_ATTR_BULK, BULK_EP_MAXPACKET,
 				usbDataOutCallback);
 
 	// Device to PC endpoint
-	usbd_ep_setup(usbd_dev, 0x81, USB_ENDPOINT_ATTR_BULK, BULK_EP_MAXPACKET,
+	usbd_ep_setup(usbd_dev, usbInEndpointId, USB_ENDPOINT_ATTR_BULK, BULK_EP_MAXPACKET,
 			usbDataInCallback);
-	usbd_ep_nak_set( usbd_dev, 0x81, true );
+
+	// Disable Transmit by default
+	usbd_ep_nak_set( usbd_dev, usbInEndpointId, true );
 
 }
 
@@ -223,10 +227,13 @@ usbd_request_return_codes usbControlCallback(
 }
 
 void usbDataOutCallback(usbd_device *usbd_dev, uint8_t ep){
-	int_lock_t key = intLock();
+	//int_lock_t key = intLock();
 	do {
 		auto p = usbBufferAlloc( PoolType::UsbToPeriph, BULK_EP_MAXPACKET );
-		if ( InvalidIndex == p ) break;
+		if ( InvalidIndex == p ) {
+			usbd_ep_nak_set( usbDevice, ep, true );
+			break;
+		}
 		auto data = usbBufferGetDataPtr( PoolType::UsbToPeriph, p );
 		if ( nullptr == data ) break;
 
@@ -240,73 +247,53 @@ void usbDataOutCallback(usbd_device *usbd_dev, uint8_t ep){
 			usbBufferUpdateSize( PoolType::UsbToPeriph, p, readSize );
 			usbBufferCommit( PoolType::UsbToPeriph, p );
 		}
-		if ( 0 == usbBufferFreeElementCount( PoolType::UsbToPeriph )  ) {
+
+		auto newAllocIndex = usbBufferAlloc( PoolType::UsbToPeriph, BULK_EP_MAXPACKET, true );
+		if ( InvalidIndex == newAllocIndex) {
 			usbd_ep_nak_set( usbDevice, ep, true );
 		}
+
 	} while(false);
-	intUnlock(key);
+	//intUnlock(key);
 }
 
 
 static volatile bool _usbTxInProgress = false;
 
 void usbDataInCallback(usbd_device *usbd_dev, uint8_t ep) {
-	int_lock_t key = intLock();
-	IndexType p = InvalidIndex;
-	PoolType pool = PoolType::LinToUsb;
-	do {
-		p = usbBufferGet( pool );
-		if ( InvalidIndex != p ) break;
-		pool = PoolType::Can1ToUsb;
-		p = usbBufferGet( pool );
-		if ( InvalidIndex != p ) break;
-		pool = PoolType::Can2ToUsb;
-		p = usbBufferGet( pool );
-		if ( InvalidIndex != p ) break;
-	} while(false);
-
+	//int_lock_t key = intLock();
+	const PoolType pool = PoolType::PeriphToUsb;
+	const IndexType p = usbBufferGet( pool );
 	if  ( InvalidIndex != p ) {
-		auto data = usbBufferGetDataPtr( pool, p );
-		auto size = usbBufferGetSize( pool, p );
+		uint8_t* const data = usbBufferGetDataPtr( pool, p );
+		size_t size = usbBufferGetSize( pool, p );
 		usbBufferCheckout( pool, p );
 		usbd_ep_write_packet( usbd_dev, ep, data, size );
 		usbBufferFree( pool, p );
 	} else {
 		_usbTxInProgress = false;
 	}
-	intUnlock(key);
+	//intUnlock(key);
 }
 
 void usbSendPacket() {
-	int_lock_t key = intLock();
-	IndexType p = InvalidIndex;
-	PoolType pool = PoolType::LinToUsb;
-	do {
-		if ( _usbTxInProgress ) break;
-		p = usbBufferGet( pool );
-		if ( InvalidIndex != p ) break;
-		pool = PoolType::Can1ToUsb;
-		p = usbBufferGet( pool );
-		if ( InvalidIndex != p ) break;
-		pool = PoolType::Can2ToUsb;
-		p = usbBufferGet( pool );
-		if ( InvalidIndex != p ) break;
-	} while(false);
-
+	//int_lock_t key = intLock();
+	const PoolType pool = PoolType::PeriphToUsb;
+	const IndexType p = usbBufferGet( pool );
 	if ( InvalidIndex != p ) {
 		_usbTxInProgress = true;
 		usbBufferCheckout( pool, p );
-		auto data = usbBufferGetDataPtr( pool, p );
-		auto size = usbBufferGetSize( pool, p );
-		usbd_ep_write_packet( usbDevice, 0x81, data, size );
+		uint8_t* const data = usbBufferGetDataPtr( pool, p );
+		const size_t size = usbBufferGetSize( pool, p );
+		usbd_ep_write_packet( usbDevice, usbInEndpointId, data, size );
 		usbBufferFree( pool, p );
 	}
-	intUnlock(key);
+	//intUnlock(key);
 }
 
 
 void usbSetAck() {
-	usbd_ep_nak_set( usbDevice, 0x01, false );
+	usbd_ep_nak_set( usbDevice, usbOutEndpointId, false );
 }
 
 extern const struct _usbd_driver stm32f107_usb_driver;

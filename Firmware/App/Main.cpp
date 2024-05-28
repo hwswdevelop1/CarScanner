@@ -14,6 +14,7 @@
 #include <libopencm3/stm32/f1/timer.h>
 #include <libopencm3/stm32/st_usbfs.h>
 #include <libopencm3/stm32/f1/st_usbfs.h>
+#include <libopencm3/stm32/can.h>
 #include <libopencm3/usb/usbd.h>
 #include <libopencm3/cm3/nvic.h>
 #include <libopencm3/cm3/scb.h>
@@ -22,36 +23,90 @@
 #include "Memory.h"
 #include "Usb.h"
 #include "Lin.h"
+#include "Can.h"
 
+
+#include "SystemTimer.h"
 
 #include "usb_common.h"
 #include "UsbPacketBuffer.h"
 
 extern "C" void systemMain() {
-
+	SystemTimer::init();
 	usbdInit();
 
-	Lin::HwConfig hwConfig;
+	Lin::init( lin0 );
+	Can::init();
 
-
-	hwConfig.usart = USART1;
-	hwConfig.usart_irq = 37;
-	hwConfig.lin_en = { GPIOB, GPIO11 };
-	hwConfig.timer = TIM1;
-	hwConfig.timer_irq = 25;
-	Lin::hwInit( lin0, &hwConfig );
-
-	Lin::Config config;
-	config.baud = 9600;
-	config.maxRxSize = 16;
-	config.rxTimeout = 2000;
-	Lin::config(lin0, &config );
-
-	uint32_t counter = 0;
 	while( true ) {
+
 		auto p = usbBufferGet( PoolType::UsbToPeriph );
 		if ( InvalidIndex != p ) {
-			Lin::process( lin0, p );
+
+			// So, if I got packet, process it
+			uint8_t* const data = usbBufferGetDataPtr( PoolType::UsbToPeriph, p );
+			const size_t size = usbBufferGetSize( PoolType::UsbToPeriph, p );
+
+			// Check if, buffer size is lower then UsbPacketId
+			if ( size < sizeof(UsbPacketId) ) {
+				usbBufferCheckout( PoolType::UsbToPeriph, p );
+				usbBufferFree( PoolType::UsbToPeriph, p );
+				continue;
+			}
+
+			// Check usb packet head size
+			const UsbPacketId* const usbPacketId = reinterpret_cast<const UsbPacketId* const>(data);
+			const size_t headSize = usbPacketHeadSize(*usbPacketId);
+
+			// Check packet type
+			if ( ( 0 == headSize ) || ( size < headSize ) ) {
+				usbBufferCheckout( PoolType::UsbToPeriph, p );
+				usbBufferFree( PoolType::UsbToPeriph, p );
+				continue;
+			}
+
+			// Select packet type
+			switch( *usbPacketId ) {
+
+			case UsbPacketId::UsbToTimer:
+			{
+				SystemTimer::process(p);
+			}
+			break;
+
+			// Lin data packet
+			case UsbPacketId::UsbToLinData:
+			case UsbPacketId::UsbToLinRxOnOff:
+			case UsbPacketId::UsbToLinTimeout:
+			case UsbPacketId::UsbToLinBaud:
+			case UsbPacketId::UsbToLinAnswer:
+			case UsbPacketId::UsbToLinRxSize:
+			{
+				Lin::process( lin0, p,  *usbPacketId );
+			}
+			break;
+
+			case UsbPacketId::UsbDataToCan:
+			{
+				UsbDataToCanHead* const head = reinterpret_cast<UsbDataToCanHead* const>(data);
+				if ( 0 == head->canId ) {
+					Can::process( can1, p, *usbPacketId );
+				} else {
+					Can::process( can2, p, *usbPacketId );
+				}
+			}
+			break;
+
+			// Any other packets
+			default:
+			{
+				// Clear unused packets
+				usbBufferCheckout( PoolType::UsbToPeriph, p );
+				usbBufferFree( PoolType::UsbToPeriph, p );
+			}
+			break;
+			}
+
 		}
 	}
 

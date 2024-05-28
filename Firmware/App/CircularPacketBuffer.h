@@ -31,13 +31,13 @@ struct CircularPacketBuffer {
 		BufferState		state = BufferState::Free;
 	};
 
-	using AllignType = BufferDescriptor;
+	using AllignType = uint32_t;
 	static constexpr size_t AllignSize = sizeof(AllignType);
 	static constexpr size_t AllignedElementCount = ( PoolSize + AllignSize - 1 ) / AllignSize;
 	using CircularIndexType = CircularIndex<IndexType, 0, (PoolSize - 1) >;
 	using DescriptorIndexType = CircularIndex<IndexType, 0, (BufferCount - 1) >;
 
-	IndexType alloc( size_t size ) {
+	IndexType alloc( size_t size, bool allocPossibleCheck = false ) {
 
 		IndexType resDescriptorIndex = InvalidIndex;
 		if ( _size >= PoolSize ) return resDescriptorIndex;
@@ -62,7 +62,7 @@ struct CircularPacketBuffer {
 				const size_t bufferStartPos = headIndex;
 				const size_t bufferSize = totalSize;
 				const size_t dataStartPos = headIndex + offset;
-				resDescriptorIndex = allocateDescriptor(bufferStartPos, bufferSize, dataStartPos, size);
+				resDescriptorIndex = allocateDescriptor(bufferStartPos, bufferSize, dataStartPos, size, allocPossibleCheck );
 			}
 			else {
 				// [allocate][tailIndex][data][headIndex][notUsed]
@@ -74,7 +74,7 @@ struct CircularPacketBuffer {
 					const size_t bufferStartPos = headIndex;
 					const size_t totalSizeIncludingUnused = notUsedSize + totalSize;
 					const size_t dataStartPos = offsetAtBegin;
-					resDescriptorIndex = allocateDescriptor(bufferStartPos, totalSizeIncludingUnused, dataStartPos, size);
+					resDescriptorIndex = allocateDescriptor(bufferStartPos, totalSizeIncludingUnused, dataStartPos, size, allocPossibleCheck );
 				}
 			}
 		} else {
@@ -86,7 +86,7 @@ struct CircularPacketBuffer {
 				const size_t bufferStartPos = headIndex;
 				const size_t dataStartPos = headIndex + offsetAtTheMiddle;
 				const size_t bufferSize = totalSize;
-				resDescriptorIndex = allocateDescriptor( bufferStartPos, bufferSize, dataStartPos, size);
+				resDescriptorIndex = allocateDescriptor( bufferStartPos, bufferSize, dataStartPos, size, allocPossibleCheck );
 			}
 		}
 
@@ -115,11 +115,33 @@ struct CircularPacketBuffer {
 	void trunc( const IndexType index, const size_t size ) {
 		if ( !isDescriptorExists(index) ) return;
 		BufferDescriptor* const descr = &_descr[index];
+
 		if ( ( BufferState::Allocated != descr->state ) &&
 			 ( BufferState::Checkout != descr->state ) ) return;
-		if ( size < descr->size ) {
-			descr->size = size;
+
+		const IndexType currentSize = descr->size;
+
+		if ( size < currentSize ) {
+			if ( BufferState::Allocated == descr->state ) {
+				// Get first allocated element position
+				DescriptorIndexType head( _descrTail );
+				// Append allocated descriptor count
+				head += (_descrCount - 1);
+				// Get index of last append descriptor
+				const IndexType lastDescrIndex = *head;
+
+				if ( lastDescrIndex == index ) {
+					const IndexType diff = (currentSize - size);
+					descr->size = size;
+					descr->totalSize -= diff;
+					_size -= diff;
+				}
+				descr->size = size;
+			} else {
+				descr->size = size;
+			}
 		}
+
 	}
 
 	void commit( const IndexType index ) {
@@ -191,29 +213,22 @@ struct CircularPacketBuffer {
 					break;
 				}
 			}
+		} else {
+			DescriptorIndexType head(_descrTail);
+			if ( _descrCount > 0 ) {
+				head += (_descrCount - 1);
+				const IndexType indexOfLastAllocated = *head;
+				if ( indexOfLastAllocated == index ) {
+					BufferDescriptor* const descr = &_descr[index];
+					const size_t freeSize =  descr->totalSize;
+					_size -= freeSize;
+					descr->size = 0;
+					descr->totalSize = 0;
+					descr->state = BufferState::Free;
+					_descrCount--;
+				}
+			}
 		}
-	}
-
-	bool isEmpty(){
-		const bool allDescrEmpty = ( BufferCount == _descrCount);
-		return  allDescrEmpty;
-	}
-
-	bool isFull() {
-		const bool descrFull = ( BufferCount == _descrCount);
-		const bool dataFull = ( PoolSize == _size );
-		return (dataFull || descrFull);
-	}
-
-	size_t packetCount(){
-		const size_t totalPacketCount = _descrCount;
-		return totalPacketCount;
-	}
-
-	size_t emptyCount(){
-		const size_t totalPacketCount = _descrCount;
-		const size_t remainPacketCount = BufferCount - totalPacketCount;
-		return remainPacketCount;
 	}
 
 private:
@@ -244,12 +259,12 @@ private:
 		}
 	}
 
-	IndexType allocateDescriptor( const IndexType bufferStartPos, const size_t bufferSize, const IndexType dataStartPos, const size_t dataSize ) {
+	IndexType allocateDescriptor( const IndexType bufferStartPos, const size_t bufferSize, const IndexType dataStartPos, const size_t dataSize, bool allocPossibleCheck = false ) {
 
 		// Check if allocate is possible
 		if ( BufferCount == _descrCount ) {
 			// All descriptors are used
-			return -1;
+			return InvalidIndex;
 		}
 
 		// Get first allocated elemnt position
@@ -266,6 +281,7 @@ private:
 
 		// Check, if descriptor not used, it is Free
 		if ( BufferState::Free == descr->state ) {
+			if ( allocPossibleCheck ) return index;
 			// Allocate descriptor
 			_descrCount++;
 			// Fill descriptor data

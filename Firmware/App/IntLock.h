@@ -2,7 +2,7 @@
  * IntLock.h
  *
  *  Created on: May 12, 2024
- *      Author: Developer
+ *      Author: Evgeny Sobolev. 02/09/1984y.b
  */
 
 #pragma once

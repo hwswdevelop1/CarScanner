@@ -14,6 +14,12 @@
 template<typename IndexType = size_t, IndexType MinValue = 0, IndexType MaxValue = IndexType(-1)>
 struct CircularIndex {
 
+	inline CircularIndex() : _index(MinValue) {
+	}
+
+	inline CircularIndex(const IndexType index) : _index(index) {
+	}
+
     inline CircularIndex& operator = ( const IndexType index ) {
         _index = index;
         return *this;
@@ -55,7 +61,7 @@ struct CircularIndex {
     }
 
     inline bool operator < (const CircularIndex& other) {
-        const IndexType half = ((_maxValue - _minValue) + 1) / 2;
+        const IndexType half = ((_maxValue - _minValue)) / 2;
         if ( _index == other._index ) return false;
         IndexType diff = indexDiff( _index, other._index );
         if ( diff < half ) {
@@ -66,7 +72,7 @@ struct CircularIndex {
     }
 
     inline bool operator <= (const CircularIndex& other) {
-        const IndexType half = ((_maxValue - _minValue) + 1) / 2;
+        const IndexType half = ((_maxValue - _minValue)) / 2;
         if (_index == other._index) return true;
         IndexType diff = indexDiff(_index, other._index);
         if (diff < half) {
@@ -78,7 +84,7 @@ struct CircularIndex {
     }
 
     inline bool operator >= (const CircularIndex& other) {
-        const IndexType half = ((_maxValue - _minValue) + 1) / 2;
+        const IndexType half = ((_maxValue - _minValue)) / 2;
         if (_index == other._index) return true;
         IndexType diff = indexDiff(_index, other._index);
         if ( diff < half ) {

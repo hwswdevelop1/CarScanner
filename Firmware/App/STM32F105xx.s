@@ -123,16 +123,16 @@ g_pfnVectors:
  .word   AnyUserIRQHandler        // DMA1 Channel 6
  .word   AnyUserIRQHandler        // DMA1 Channel 7
  .word   AnyUserIRQHandler        // ADC1 and ADC2
- .word   AnyUserIRQHandler        // CAN1 TX
- .word   AnyUserIRQHandler        // CAN1 RX0
- .word   AnyUserIRQHandler        // CAN1 RX1
- .word   AnyUserIRQHandler        // CAN1 SCE
+ .word   Can1Tx_IRQHandler        // CAN1 TX
+ .word   Can1Rx0_IRQHandler       // CAN1 RX0
+ .word   Can1Rx1_IRQHandler       // CAN1 RX1
+ .word   Can1Sce_IRQHandler       // CAN1 SCE
  .word   AnyUserIRQHandler        // EXTI Line 9..5
  .word   AnyUserIRQHandler        // TIM1 Break
  .word   TIM1_IRQHandler          // TIM1 Update
  .word   AnyUserIRQHandler        // TIM1 Trigger and Commutation
  .word   AnyUserIRQHandler        // TIM1 Capture Compare
- .word   AnyUserIRQHandler        // TIM2
+ .word   TIM2_IRQHandler          // TIM2
  .word   AnyUserIRQHandler        // TIM3
  .word   AnyUserIRQHandler        // TIM4
  .word   AnyUserIRQHandler        // I2C1 Event
@@ -146,7 +146,7 @@ g_pfnVectors:
  .word   AnyUserIRQHandler        // USART3
  .word   AnyUserIRQHandler        // EXTI Line 15..10
  .word   AnyUserIRQHandler        // RTC alarm through EXTI line
- .word   AnyUserIRQHandler     // USB OTG FS Wakeup through EXTI line
+ .word   AnyUserIRQHandler     	  // USB OTG FS Wakeup through EXTI line
  .word   AnyUserIRQHandler        // Reserved
  .word   AnyUserIRQHandler        // Reserved
  .word   AnyUserIRQHandler        // Reserved
@@ -167,10 +167,10 @@ g_pfnVectors:
  .word   AnyUserIRQHandler    	  // DMA2 Channel5
  .word   AnyUserIRQHandler        // Reserved
  .word   AnyUserIRQHandler        // Reserved
- .word   AnyUserIRQHandler        // CAN2 TX
- .word   AnyUserIRQHandler        // CAN2 RX0
- .word   AnyUserIRQHandler        // CAN2 RX1
- .word   AnyUserIRQHandler        // CAN2 SCE
+ .word   Can2Tx_IRQHandler        // CAN2 TX
+ .word   Can2Rx0_IRQHandler       // CAN2 RX0
+ .word   Can2Rx1_IRQHandler       // CAN2 RX1
+ .word   Can2Sce_IRQHandler       // CAN2 SCE
  .word   USB_IRQHandler    	  	  // USB OTG FS
 
                         
