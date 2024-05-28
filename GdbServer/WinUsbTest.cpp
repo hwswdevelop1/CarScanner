@@ -7,7 +7,7 @@
 
 
 #include "processthreadsapi.h"
-
+#include "UsbPackets.h"
 
 struct ThreadParams {
     WinUsbInterface*    iface;
@@ -22,9 +22,12 @@ DWORD WINAPI recvThread(LPVOID params) {
     auto t = p->iface;
     const size_t maxPacketSize = t->getMaxPacketSize();
     uint8_t* buffer = new uint8_t[maxPacketSize];
-    const size_t maxStrSize = maxPacketSize * 3 + 32;
+   
+
+    const size_t maxStrSize = maxPacketSize * 3 + 64;
     char* str = new char[maxStrSize];
     size_t offs = 0;
+    uint32_t frameNo = 0;
     while (p->threadActive) {
         size_t rxSize = 0;
         try {
@@ -32,87 +35,164 @@ DWORD WINAPI recvThread(LPVOID params) {
         } catch(...) {
             rxSize = 0;
         };
-        offs = snprintf( &str[0], maxStrSize, "Recv (%02d):", (int)rxSize);
-        for ( size_t index = 0; index < rxSize; index++) {
-            offs += snprintf( &str[offs], maxStrSize, " %02x", buffer[index]);
+        if (0 == rxSize) break;
+
+        volatile LinDataToUsbHead* const linFrameHead = reinterpret_cast<LinDataToUsbHead*>(&buffer[0]);
+        volatile CanDataToUsbHead* const canFrameHead = reinterpret_cast<CanDataToUsbHead*>(&buffer[0]);
+
+        size_t headSize = usbPacketHeadSize(linFrameHead->id);
+        size_t dataSize = rxSize - headSize;
+        if ( UsbPacketId::LinDataToUsb == linFrameHead->id ) {
+            offs = snprintf(&str[0], maxStrSize, "%4d. LIN RX (Ts: %10u uS, Dur: %6d uS, Size: %2d byte(s):", frameNo, linFrameHead->startTs, (linFrameHead->endTs - linFrameHead->startTs), dataSize );
+            for (size_t index = usbPacketHeadSize(linFrameHead->id); index < rxSize; index++) {
+                offs += snprintf(&str[offs], maxStrSize, " %02x", buffer[index]);
+            }
         }
+        if ( UsbPacketId::CanDataToUsb == canFrameHead->id ) {
+            offs = snprintf(&str[0], maxStrSize, "%4d. Can: (Ts: %10u uS): ", frameNo, canFrameHead->ts);
+            offs += snprintf(&str[offs], maxStrSize, "ext=%1d, id=0x%08X, rtr=%1d, ", canFrameHead->ext, canFrameHead->frId, canFrameHead->rtr);
+            offs += snprintf(&str[offs], maxStrSize, "len: %1d", canFrameHead->len);
+            for (size_t index = 0; index < canFrameHead->len; index++) {
+                offs += snprintf(&str[offs], maxStrSize, " %02x", canFrameHead->data[index]);
+            }
+        }
+
         str[offs] = 0;
-        printf("%s\r\n\r", str);
+
+        if ( ( 0 == (frameNo % 1000) ) || true ) {
+            printf("%s\r\n\r", str);
+        }
+        frameNo++;
+
     }
     delete[] str;
     delete[] buffer;
     return 0;
 }
 
-enum class LinFrameType : uint8_t {
-    LinBreak,
-    LinNoBreak,
-    LinSetBaud,
-    LinSetTimeout,
-    LinSetAutoAnswer
-};
 
-enum class ModuleId : uint8_t {
-    Lin1,
-    Can1,
-    Can2
-};
-
-struct UsbPacketHead {
-    ModuleId 	 id;
-    union ModuleSpecific {
-        LinFrameType	lin;
-    } type;
-};
-
-VOID LinSetBaud( WinUsbInterface* iface, ModuleId linModuleId, DWORD baud ) {
-    static constexpr const size_t BaudSize = 2;
-    static constexpr const size_t PacketSize = sizeof(UsbPacketHead) + BaudSize;
-    uint8_t buffer[PacketSize] = {0};
-    UsbPacketHead* head = reinterpret_cast<UsbPacketHead*>( & buffer[0] );
-    head->id = linModuleId;
-    head->type.lin = LinFrameType::LinSetBaud;
-    const size_t offset = sizeof(UsbPacketHead);
-    buffer[offset + 0] = baud & 0xFF;
-    buffer[offset + 1] = (baud >> 8) & 0xFF;
-    iface->writePacket(buffer, PacketSize);
+void setTimestamp( WinUsbInterface* const iface, const time_us_t ts ) {
+    UsbToTimerHead frame;
+    frame.id = UsbPacketId::UsbToTimer;
+    frame.ts = ts;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(frame);
+    iface->writePacket( buf, sendSize);
 }
 
-VOID LinSetTimeout(WinUsbInterface* iface, ModuleId linModuleId, DWORD timeout) {
-    static constexpr const size_t TimeoutSize = 2;
-    static constexpr const size_t PacketSize = sizeof(UsbPacketHead) + TimeoutSize;
-    uint8_t buffer[PacketSize] = { 0 };
-    UsbPacketHead* head = reinterpret_cast<UsbPacketHead*>(&buffer[0]);
-    head->id = linModuleId;
-    head->type.lin = LinFrameType::LinSetTimeout;
-    const size_t offset = sizeof(UsbPacketHead);
-    buffer[offset + 0] = timeout & 0xFF;
-    buffer[offset + 1] = (timeout >> 8) & 0xFF;
-    iface->writePacket(buffer, PacketSize);
+void linSetRxEn(WinUsbInterface* const iface, bool enable ) {
+    UsbToLinRxOnOffHead frame;
+    frame.id = UsbPacketId::UsbToLinRxOnOff;
+    frame.rx = (enable) ? LinRxOnOff::On : LinRxOnOff::Off;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(frame);
+    iface->writePacket(buf, sendSize);
 }
 
-VOID LinSetAutoAnswer(WinUsbInterface* iface, ModuleId linModuleId, const uint8_t index, const uint8_t id, const uint8_t size, uint8_t* const data) {
-    static constexpr const size_t PayloadSize = 12;
-    static constexpr const size_t PacketSize = sizeof(UsbPacketHead) + PayloadSize;
-    if ( size > 9 ) return;
-    if ( index > 8 ) return;
-    uint8_t buffer[PacketSize] = { 0 };
-    UsbPacketHead* head = reinterpret_cast<UsbPacketHead*>(&buffer[0]);
-    head->id = linModuleId;
-    head->type.lin = LinFrameType::LinSetAutoAnswer;
-    uint8_t* ptr = &buffer[sizeof(UsbPacketHead)];
-    *ptr++ = index;
-    *ptr++ = id;
-    *ptr++ = size;
-    for (size_t ind = 0; ind < size; ind++) {
-        *ptr++ = data[ind];
-    }
-    iface->writePacket( buffer, PacketSize );
+void linSetRxSize(WinUsbInterface* const iface, uint8_t size) {
+    UsbToLinMaxRxSizeHead frame;
+    frame.size = size;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(frame);
+    iface->writePacket(buf, sendSize);
+}
+
+void linSendFrame( WinUsbInterface* const iface, const bool waitTs, const time_us_t ts, bool sendBreak, const uint8_t* const data, const size_t size ) {
+    static constexpr const size_t LinMaxFrameSize = 2 + 9;
+    struct Frame {
+        UsbToLinDataHead head;
+        uint8_t          data[LinMaxFrameSize];
+    } ;
+
+    Frame frame;
+    frame.head.id = UsbPacketId::UsbToLinData;
+    frame.head.mode = (waitTs) ? WaitMode::WaitTimestamp : WaitMode::DontWaitTimestamp;
+    frame.head.frameType = (sendBreak) ? LinFrameType::BreakAndData : LinFrameType::Data;
+    frame.head.ts = ts;
+
+    const size_t copySize = (LinMaxFrameSize < size) ? LinMaxFrameSize : size;
+    memcpy(&frame.data[0], data, copySize);
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = copySize + sizeof(UsbToLinDataHead);
+    iface->writePacket( buf, sendSize );
+}
+
+void linSetBaud(WinUsbInterface* const iface, uint16_t baud) {
+    UsbToLinBaudHead frame;
+    frame.baud = baud;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(frame);
+    iface->writePacket(buf, sendSize);
+}
+
+void linSetRxTimeout(WinUsbInterface* const iface, time_us_t timeout ) {
+    UsbToLinTimeoutHead frame;
+    frame.timeout = timeout;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(frame);
+    iface->writePacket(buf, sendSize);
+}
+
+void linSetAnswer(WinUsbInterface* const iface,
+    const uint8_t index,
+    const uint8_t protectedId,
+    uint8_t* const data,
+    uint8_t* const increment,
+    const size_t size,
+    const LinCrcType crcType ) {
+
+    struct Frame {
+        UsbToLinAnswerHead head;
+        uint8_t data[18];
+    };
+    Frame frame;
+
+    frame.head.index = index;
+    frame.head.protectedId = protectedId;
+    frame.head.size = size;
+    frame.head.crc = crcType;
+    memcpy( &(frame.data[0]), data, size );
+    memcpy( &(frame.data[size]), increment, size );
+   
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = (size * 2) + sizeof(UsbToLinAnswerHead);
+    iface->writePacket(buf, sendSize);
+}
+
+void canSendFrame( WinUsbInterface* const iface,                  
+                   const bool waitTs, 
+                   const time_us_t ts,
+                   const uint8_t canId,
+                   const uint32_t frameId,
+                   const bool rtr,
+                   const uint8_t  len,
+                   uint8_t* const data
+                    ) {
+    UsbDataToCanHead frame;
+    frame.canId = canId;
+    frame.frId = frameId;
+    frame.len = len;
+    frame.rtr = rtr;
+    frame.wait = (waitTs) ? WaitMode::WaitTimestamp : WaitMode::DontWaitTimestamp;
+    frame.ts = ts;
+
+    memcpy( &(frame.data[0]), data, len );
+
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize =  sizeof(UsbDataToCanHead);
+    iface->writePacket(buf, sendSize);
 }
 
 
-int main()
-{   
+uint8_t calcLinId(const uint8_t id) {
+    const uint8_t newId = id & 0x3F;
+    const uint8_t p0 = (id ^ (id >> 1) ^ (id >> 2) ^ (id >> 4)) & 0x1;
+    const uint8_t p1 = ~(((id >> 1) ^ (id >> 3) ^ (id >> 4) ^ (id >> 5))) & 0x1;
+    const uint8_t resId = (p1 << 7) | (p0 << 6) | newId;
+    return resId;
+}
+
+int main(int argc, char* argv[] ) {   
     WinUsbInterfaceFabric targetFabric;
     targetFabric.updateInterfaces();
     const size_t count = targetFabric.getInterfaceCount();
@@ -139,38 +219,67 @@ int main()
             params.threadActive = true;
 
             DWORD ThreadId;
-            HANDLE hThread = CreateThread( NULL, 0, recvThread, (LPVOID)&params, 0, &ThreadId );
+            HANDLE hThread = CreateThread(NULL, 0, recvThread, (LPVOID)&params, 0, &ThreadId);
+            SetThreadPriority(hThread, THREAD_PRIORITY_TIME_CRITICAL);
+
+
+
+            //setTimestamp(t, 0x70000000);
+            //Sleep(100);
+
+            setTimestamp(t, 0);
+            linSetBaud(t, 10000);
+            linSetRxTimeout(t, 2000);
+            linSetRxSize(t, 16);
+
+            uint8_t answer[9] = { 0x55, 0x93, 0xE5 ,0x04, 0x05, 0x06, 0x07, 0x08, 0x09 };
+            uint8_t incr[9] = { 0x01 , 0x02, 0x00 ,0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+
+            linSetAnswer(t, 0, 0x03, answer, incr, 9, LinCrcType::Std2x);
+
+            linSetRxEn(t, true);
 
             std::cout << "Sending Lin Packets" << std::endl;
 
-            const size_t maxPacketSize = t->getMaxPacketSize();
-            const size_t maxStrSize = maxPacketSize * 3 + 32;
-            char* str = new char[maxStrSize];
+            setTimestamp(t, 0);
+            time_us_t txTime = 1000;
+
+            uint32_t count = 0;
 
 
-            uint8_t answer[9] = { 0x09, 0x08, 0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01 };
-            LinSetAutoAnswer(t, ModuleId::Lin1, 0, 0x2a, 9, answer);
-            answer[8] = 0xFF;
-            LinSetAutoAnswer(t, ModuleId::Lin1, 1, 0x1a, 9, answer);
+#if 0
+            for (int num = 0; num < 2000; num++) {
 
-            for (int i = 0; i < 32; i++) {
-                
-                LinSetTimeout( t, ModuleId::Lin1, 2000 * (1 + (i & 0x03)) );
-                uint8_t linOutPacket[32] = { 0x00, 0x00, 0x55, 0x1A, 0x00, i, 0x00 };
-                const size_t txSize = t->writePacket((uint8_t*)&linOutPacket[0], 4);  
-                size_t offs = snprintf(&str[0], maxStrSize, "Send (%02d):", (int)txSize);
-                for (size_t index = 0; index < txSize; index++) {
-                    offs += snprintf(&str[offs], maxStrSize, " %02x", linOutPacket[index]);
-                }
-                str[offs] = 0;
-                printf("%s\r\n\r", str);
-                Sleep(50);
+                for (int i = 2; i <= 4; i++) {
+                    uint8_t protectedId = calcLinId(i);
+                    uint8_t linOutPacket[32] = { 0x55, protectedId, 0x80, 0x70, 0x60, 0x50, 0x40, 0x30, 0x20, 0x10, 0x00 };
+                    txTime += 20000;
+                    linSendFrame(t, true, txTime, true, linOutPacket, 2);
+                    //std::cout << count << std::endl;
+                    count++;
+        }
+}
+
+            Sleep(2000);
+#else
+
+#if 0
+            for (int num = 0; num < 20000; num++) {
+                uint8_t canOutPacket[8] = { 0x80, 0x70, 0x60, 0x50, 0x40, 0x30, 0x20, num };
+                canSendFrame(t, true, txTime, (num & 0x01),0xAAA, false, 8, canOutPacket);
+                txTime += 1000;
+            
             }
-            delete[] str;
-            Sleep(500);
+#endif
+
+#endif
+            Sleep(200000);
+
             params.threadActive = false;
-            Sleep(10);
+            Sleep(100);
             CloseHandle(hThread);
+           
+
         }
 
     }
