@@ -1,0 +1,1392 @@
+
+1. VID:4369 PID:26 NAME:"Car Scanner" VENDOR:"hwswdevelop@gmail.com" SERIAL:"00000000"
+   0. Can: (Ts:  200020267 uS): ext=0, id=0x000004BD, rtr=0, len: 6 06 00 00 8c 00 00
+Sending Lin Packets
+   1. Can: (Ts:    8129899 uS): ext=0, id=0x00000400, rtr=0, len: 8 00 02 0c 04 10 04 00 00
+   2. Can: (Ts:    8131181 uS): ext=0, id=0x00000397, rtr=0, len: 8 80 80 00 00 00 00 00 00
+   3. Can: (Ts:    8131954 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+   4. Can: (Ts:    8133232 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 00 00 00 00 1f
+   5. Can: (Ts:    8134107 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 e0 c0
+   6. Can: (Ts:    8135168 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+   7. Can: (Ts:    8136047 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+   8. Can: (Ts:    8137278 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 04 0f 00 40 14 f0 00
+   9. Can: (Ts:    8137979 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+  10. Can: (Ts:    8139261 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+  11. Can: (Ts:    8140102 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+  12. Can: (Ts:    8141193 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+  13. Can: (Ts:    8149374 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+  14. Can: (Ts:    8150695 uS): ext=0, id=0x0000029B, rtr=0, len: 8 00 00 00 00 00 00 00 00
+  15. Can: (Ts:    8151476 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 40 00
+  16. Can: (Ts:    8152334 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 f3 c0
+  17. Can: (Ts:    8156668 uS): ext=0, id=0x00000403, rtr=0, len: 8 03 02 01 00 00 04 00 00
+  18. Can: (Ts:    8157895 uS): ext=0, id=0x00000402, rtr=0, len: 8 02 02 01 00 00 04 00 00
+  19. Can: (Ts:    8159306 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 f0 00
+  20. Can: (Ts:    8160325 uS): ext=0, id=0x00000381, rtr=0, len: 6 06 0c 01 84 00 00
+  21. Can: (Ts:    8161365 uS): ext=0, id=0x000003B5, rtr=0, len: 6 06 00 00 84 00 00
+  22. Can: (Ts:    8162886 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0a 02 01 00 00 00 00 00
+  23. Can: (Ts:    8169145 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 aa 02 00 00
+  24. Can: (Ts:    8169995 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 40 00
+  25. Can: (Ts:    8179207 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 32 04 00 00
+  26. Can: (Ts:    8180516 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 00 00 00 00 1f
+  27. Can: (Ts:    8181387 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 03 30
+  28. Can: (Ts:    8182359 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+  29. Can: (Ts:    8198960 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 aa 02 00 00
+  30. Can: (Ts:    8200200 uS): ext=0, id=0x0000040C, rtr=0, len: 8 0c 02 01 04 00 04 00 00
+  31. Can: (Ts:    8200960 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 40 00
+  32. Can: (Ts:    8203459 uS): ext=0, id=0x000003E3, rtr=0, len: 8 ff ff ff 00 00 fe 00 ff
+  33. Can: (Ts:    8219786 uS): ext=0, id=0x000004BD, rtr=0, len: 6 06 00 00 8c 00 00
+  34. Can: (Ts:    8220814 uS): ext=0, id=0x000004B9, rtr=0, len: 6 06 00 00 8c 00 00
+  35. Can: (Ts:    8226585 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 00 00 04 00 00
+  36. Can: (Ts:    8229465 uS): ext=0, id=0x00000397, rtr=0, len: 8 81 81 00 00 00 00 00 00
+  37. Can: (Ts:    8230238 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+  38. Can: (Ts:    8231529 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 00 00 00 00 1f
+  39. Can: (Ts:    8232387 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 13 20
+  40. Can: (Ts:    8238931 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 aa 02 00 00
+  41. Can: (Ts:    8239810 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 40 00
+  42. Can: (Ts:    8241122 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+  43. Can: (Ts:    8242260 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 0d 00 04 00
+  44. Can: (Ts:    8242931 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+  45. Can: (Ts:    8249760 uS): ext=0, id=0x000003B5, rtr=0, len: 6 06 00 00 84 00 00
+  46. Can: (Ts:    8250779 uS): ext=0, id=0x00000381, rtr=0, len: 6 06 0c 01 84 00 00
+  47. Can: (Ts:    8251650 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+  48. Can: (Ts:    8261098 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+  49. Can: (Ts:    8267719 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+  50. Can: (Ts:    8268735 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+  51. Can: (Ts:    8276421 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+  52. Can: (Ts:    8278924 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 aa 02 00 00
+  53. Can: (Ts:    8279713 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 00 00
+  54. Can: (Ts:    8283706 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+  55. Can: (Ts:    8299396 uS): ext=0, id=0x000003E1, rtr=0, len: 8 c0 00 ff 00 00 00 04 00
+  56. Can: (Ts:    8300415 uS): ext=0, id=0x000004B9, rtr=0, len: 6 02 00 00 8c 00 00
+  57. Can: (Ts:    8301247 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+  58. Can: (Ts:    8309404 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 50 00
+  59. Can: (Ts:    8310423 uS): ext=0, id=0x000004B9, rtr=0, len: 6 02 00 00 8c 00 00
+  60. Can: (Ts:    8311451 uS): ext=0, id=0x000004BD, rtr=0, len: 6 02 00 00 8c 00 00
+  61. Can: (Ts:    8318913 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 aa 02 00 00
+  62. Can: (Ts:    8319703 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 00 00
+  63. Can: (Ts:    8321066 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+  64. Can: (Ts:    8321916 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+  65. Can: (Ts:    8323268 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+  66. Can: (Ts:    8329425 uS): ext=0, id=0x0000029B, rtr=0, len: 8 00 00 00 00 00 00 00 00
+  67. Can: (Ts:    8330797 uS): ext=0, id=0x00000397, rtr=0, len: 8 82 82 00 00 00 00 00 00
+  68. Can: (Ts:    8331566 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+  69. Can: (Ts:    8332437 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 33 00
+  70. Can: (Ts:    8333319 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+  71. Can: (Ts:    8334020 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+  72. Can: (Ts:    8339270 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+  73. Can: (Ts:    8340502 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 50 00
+  74. Can: (Ts:    8342484 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 0d 00 04 00
+  75. Can: (Ts:    8349056 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 40 60
+  76. Can: (Ts:    8349645 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+  77. Can: (Ts:    8350665 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+  78. Can: (Ts:    8351535 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+  79. Can: (Ts:    8358923 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+  80. Can: (Ts:    8359764 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 00 00
+  81. Can: (Ts:    8361114 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+  82. Can: (Ts:    8369180 uS): ext=0, id=0x0000040C, rtr=0, len: 8 02 01 01 04 00 04 00 00
+  83. Can: (Ts:    8379141 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 02 0c 04 32 04 00 00
+  84. Can: (Ts:    8380462 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+  85. Can: (Ts:    8381290 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+  86. Can: (Ts:    8382143 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+  87. Can: (Ts:    8383112 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+  88. Can: (Ts:    8389998 uS): ext=0, id=0x000003E1, rtr=0, len: 8 c0 00 ff 00 00 00 04 00
+  89. Can: (Ts:    8391170 uS): ext=0, id=0x000005E1, rtr=0, len: 7 00 00 00 00 00 00 00
+  90. Can: (Ts:    8398951 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+  91. Can: (Ts:    8399791 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 00 00
+  92. Can: (Ts:    8401091 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+  93. Can: (Ts:    8406700 uS): ext=0, id=0x000006DB, rtr=0, len: 8 00 42 03 00 01 00 03 03
+  94. Can: (Ts:    8408047 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 00 00
+  95. Can: (Ts:    8410434 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+  96. Can: (Ts:    8411483 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+  97. Can: (Ts:    8413794 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+  98. Can: (Ts:    8416288 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 00 00 04 00 00
+  99. Can: (Ts:    8419258 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 100. Can: (Ts:    8421098 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 101. Can: (Ts:    8429491 uS): ext=0, id=0x00000397, rtr=0, len: 8 83 83 00 00 00 00 00 00
+ 102. Can: (Ts:    8430259 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 103. Can: (Ts:    8431542 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 104. Can: (Ts:    8438981 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 105. Can: (Ts:    8439826 uS): ext=0, id=0x00000391, rtr=0, len: 3 00 00 00
+ 106. Can: (Ts:    8441083 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 107. Can: (Ts:    8442225 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 0d 00 04 00
+ 108. Can: (Ts:    8442896 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 109. Can: (Ts:    8451382 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 110. Can: (Ts:    8452398 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 111. Can: (Ts:    8453268 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 112. Can: (Ts:    8454480 uS): ext=0, id=0x000006DB, rtr=0, len: 8 40 4e 03 00 00 00 00 00
+ 113. Can: (Ts:    8461088 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 114. Can: (Ts:    8466042 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 115. Can: (Ts:    8471312 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 116. Can: (Ts:    8478910 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 117. Can: (Ts:    8480184 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 118. Can: (Ts:    8481054 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+ 119. Can: (Ts:    8481882 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 120. Can: (Ts:    8482825 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 121. Can: (Ts:    8501093 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 122. Can: (Ts:    8502652 uS): ext=0, id=0x000006DB, rtr=0, len: 3 40 4f 02
+ 123. Can: (Ts:    8511237 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 124. Can: (Ts:    8512489 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 125. Can: (Ts:    8513538 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 126. Can: (Ts:    8518909 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 127. Can: (Ts:    8521107 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 128. Can: (Ts:    8529419 uS): ext=0, id=0x00000397, rtr=0, len: 8 84 84 00 00 00 00 00 00
+ 129. Can: (Ts:    8530200 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 130. Can: (Ts:    8531521 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 131. Can: (Ts:    8532392 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 80 a0
+ 132. Can: (Ts:    8533271 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 133. Can: (Ts:    8534494 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 134. Can: (Ts:    8535194 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 135. Can: (Ts:    8541116 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 136. Can: (Ts:    8542255 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 137. Can: (Ts:    8542926 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 138. Can: (Ts:    8549078 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 93 a0
+ 139. Can: (Ts:    8549876 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 140. Can: (Ts:    8552192 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 141. Can: (Ts:    8553211 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 142. Can: (Ts:    8554081 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 143. Can: (Ts:    8558951 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 144. Can: (Ts:    8561113 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 145. Can: (Ts:    8563301 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 146. Can: (Ts:    8579310 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 147. Can: (Ts:    8580253 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 a3 90
+ 148. Can: (Ts:    8581110 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 149. Can: (Ts:    8582053 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 150. Can: (Ts:    8583620 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 04 00
+ 151. Can: (Ts:    8584771 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 152. Can: (Ts:    8599010 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 153. Can: (Ts:    8601091 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 154. Can: (Ts:    8609484 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 32 04 00 00
+ 155. Can: (Ts:    8612059 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 156. Can: (Ts:    8613108 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 157. Can: (Ts:    8621088 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 158. Can: (Ts:    8629537 uS): ext=0, id=0x00000397, rtr=0, len: 8 85 85 00 00 00 00 00 00
+ 159. Can: (Ts:    8630309 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 160. Can: (Ts:    8631618 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 161. Can: (Ts:    8632471 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 b3 80
+ 162. Can: (Ts:    8635913 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+ 163. Can: (Ts:    8639036 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 164. Can: (Ts:    8641113 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 165. Can: (Ts:    8642256 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 166. Can: (Ts:    8642926 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 167. Can: (Ts:    8652996 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 168. Can: (Ts:    8654015 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 169. Can: (Ts:    8654885 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 170. Can: (Ts:    8656104 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 171. Can: (Ts:    8661105 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 172. Can: (Ts:    8678903 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 173. Can: (Ts:    8680194 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 174. Can: (Ts:    8681056 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 33 c3 f0
+ 175. Can: (Ts:    8682856 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 176. Can: (Ts:    8684087 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 04 00
+ 177. Can: (Ts:    8685349 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 178. Can: (Ts:    8686236 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+ 179. Can: (Ts:    8701089 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 180. Can: (Ts:    8705589 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 181. Can: (Ts:    8712868 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 182. Can: (Ts:    8713917 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 183. Can: (Ts:    8718895 uS): ext=0, id=0x00000291, rtr=0, len: 5 49 00 00 00 00
+ 184. Can: (Ts:    8721087 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 185. Can: (Ts:    8729386 uS): ext=0, id=0x00000397, rtr=0, len: 8 86 86 00 00 00 00 00 00
+ 186. Can: (Ts:    8730156 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 187. Can: (Ts:    8731429 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 188. Can: (Ts:    8733169 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 189. Can: (Ts:    8734392 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 190. Can: (Ts:    8735092 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 191. Can: (Ts:    8738944 uS): ext=0, id=0x00000291, rtr=0, len: 5 00 00 00 00 00
+ 192. Can: (Ts:    8741102 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 193. Can: (Ts:    8742245 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 194. Can: (Ts:    8742916 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 195. Can: (Ts:    8749026 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 e0 c0
+ 196. Can: (Ts:    8750534 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 197. Can: (Ts:    8751783 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 198. Can: (Ts:    8753809 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 199. Can: (Ts:    8754829 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 200. Can: (Ts:    8755699 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 201. Can: (Ts:    8761091 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 202. Can: (Ts:    8778919 uS): ext=0, id=0x00000291, rtr=0, len: 5 00 00 00 00 00
+ 203. Can: (Ts:    8780189 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 204. Can: (Ts:    8781072 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 f0 d0
+ 205. Can: (Ts:    8781902 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 206. Can: (Ts:    8782844 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 207. Can: (Ts:    8784072 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 04 00
+ 208. Can: (Ts:    8785223 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 209. Can: (Ts:    8793208 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 210. Can: (Ts:    8801087 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 211. Can: (Ts:    8813675 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 212. Can: (Ts:    8814723 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 213. Can: (Ts:    8818917 uS): ext=0, id=0x00000291, rtr=0, len: 5 00 00 00 00 00
+ 214. Can: (Ts:    8821105 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 215. Can: (Ts:    8829396 uS): ext=0, id=0x00000397, rtr=0, len: 8 87 87 00 00 00 00 00 00
+ 216. Can: (Ts:    8830165 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 217. Can: (Ts:    8831477 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 218. Can: (Ts:    8832360 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+ 219. Can: (Ts:    8839129 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 32 04 00 00
+ 220. Can: (Ts:    8841109 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 221. Can: (Ts:    8842251 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 222. Can: (Ts:    8842922 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 223. Can: (Ts:    8854619 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 224. Can: (Ts:    8855638 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 225. Can: (Ts:    8856508 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 226. Can: (Ts:    8858917 uS): ext=0, id=0x00000291, rtr=0, len: 5 00 00 00 00 00
+ 227. Can: (Ts:    8861109 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 228. Can: (Ts:    8879218 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 229. Can: (Ts:    8880088 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+ 230. Can: (Ts:    8881060 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 231. Can: (Ts:    8881910 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 232. Can: (Ts:    8885468 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 233. Can: (Ts:    8898906 uS): ext=0, id=0x00000291, rtr=0, len: 5 00 00 00 00 00
+ 234. Can: (Ts:    8901098 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 235. Can: (Ts:    8914495 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 236. Can: (Ts:    8915540 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 237. Can: (Ts:    8921094 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 238. Can: (Ts:    8929384 uS): ext=0, id=0x00000397, rtr=0, len: 8 88 88 00 00 00 00 00 00
+ 239. Can: (Ts:    8930174 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 240. Can: (Ts:    8931444 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 241. Can: (Ts:    8934418 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 242. Can: (Ts:    8937096 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 243. Can: (Ts:    8941098 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 244. Can: (Ts:    8942237 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 245. Can: (Ts:    8942911 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 246. Can: (Ts:    8955437 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 247. Can: (Ts:    8956456 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 248. Can: (Ts:    8957327 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 249. Can: (Ts:    8961117 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 250. Can: (Ts:    8979215 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 251. Can: (Ts:    8980216 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 30 10
+ 252. Can: (Ts:    8981189 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 253. Can: (Ts:    8982030 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 254. Can: (Ts:    8983380 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 255. Can: (Ts:    8984599 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 256. Can: (Ts:    8985861 uS): ext=0, id=0x000003E3, rtr=0, len: 8 ff ff ff 00 00 fe 00 ff
+ 257. Can: (Ts:    8987008 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 258. Can: (Ts:    9001121 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 259. Can: (Ts:    9015306 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 260. Can: (Ts:    9016355 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 261. Can: (Ts:    9021093 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 262. Can: (Ts:    9029376 uS): ext=0, id=0x00000397, rtr=0, len: 8 89 89 00 00 00 00 00 00
+ 263. Can: (Ts:    9030144 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 264. Can: (Ts:    9031445 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 265. Can: (Ts:    9032327 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 40 60
+ 266. Can: (Ts:    9033576 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 267. Can: (Ts:    9041097 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 268. Can: (Ts:    9042240 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 269. Can: (Ts:    9042907 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 270. Can: (Ts:    9056244 uS): ext=0, id=0x000003B5, rtr=0, len: 6 00 00 00 84 00 00
+ 271. Can: (Ts:    9057263 uS): ext=0, id=0x00000381, rtr=0, len: 6 00 0c 01 84 00 00
+ 272. Can: (Ts:    9058133 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 273. Can: (Ts:    9061103 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 274. Can: (Ts:    9079093 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 275. Can: (Ts:    9080405 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 276. Can: (Ts:    9081233 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 277. Can: (Ts:    9082086 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+ 278. Can: (Ts:    9084275 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 279. Can: (Ts:    9101097 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 280. Can: (Ts:    9116118 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 281. Can: (Ts:    9117167 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 282. Can: (Ts:    9121097 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 283. Can: (Ts:    9125053 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 284. Can: (Ts:    9129353 uS): ext=0, id=0x00000397, rtr=0, len: 8 8a 8a 00 00 00 00 00 00
+ 285. Can: (Ts:    9130253 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 286. Can: (Ts:    9131523 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 287. Can: (Ts:    9132393 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 60 40
+ 288. Can: (Ts:    9133455 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+ 289. Can: (Ts:    9134338 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 290. Can: (Ts:    9138331 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 291. Can: (Ts:    9141103 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 292. Can: (Ts:    9142241 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 293. Can: (Ts:    9142912 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 294. Can: (Ts:    9151849 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 295. Can: (Ts:    9157071 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 296. Can: (Ts:    9158087 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 297. Can: (Ts:    9158957 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 298. Can: (Ts:    9174743 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 299. Can: (Ts:    9179202 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 300. Can: (Ts:    9180174 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+ 301. Can: (Ts:    9181146 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 302. Can: (Ts:    9181996 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 303. Can: (Ts:    9183287 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 304. Can: (Ts:    9184438 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 305. Can: (Ts:    9185686 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 306. Can: (Ts:    9186578 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+ 307. Can: (Ts:    9201117 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 308. Can: (Ts:    9216930 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 309. Can: (Ts:    9217979 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 310. Can: (Ts:    9221107 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 311. Can: (Ts:    9222461 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 312. Can: (Ts:    9229350 uS): ext=0, id=0x00000397, rtr=0, len: 8 8b 8b 00 00 00 00 00 00
+ 313. Can: (Ts:    9230122 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 314. Can: (Ts:    9231430 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 315. Can: (Ts:    9232301 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 80 a0
+ 316. Can: (Ts:    9241091 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 317. Can: (Ts:    9242233 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 318. Can: (Ts:    9242904 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 319. Can: (Ts:    9257876 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 320. Can: (Ts:    9258895 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 321. Can: (Ts:    9259765 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 322. Can: (Ts:    9261095 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 323. Can: (Ts:    9273151 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 324. Can: (Ts:    9279198 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 325. Can: (Ts:    9280149 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 90 b0
+ 326. Can: (Ts:    9281122 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 327. Can: (Ts:    9281971 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 328. Can: (Ts:    9283232 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 329. Can: (Ts:    9301103 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 330. Can: (Ts:    9317742 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 331. Can: (Ts:    9318791 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 332. Can: (Ts:    9319989 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 333. Can: (Ts:    9329361 uS): ext=0, id=0x00000397, rtr=0, len: 8 8c 8c 00 00 00 00 00 00
+ 334. Can: (Ts:    9330134 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 335. Can: (Ts:    9331425 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 336. Can: (Ts:    9334455 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 337. Can: (Ts:    9335156 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 338. Can: (Ts:    9335949 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 339. Can: (Ts:    9341099 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 340. Can: (Ts:    9342238 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 341. Can: (Ts:    9342912 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 342. Can: (Ts:    9352504 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 343. Can: (Ts:    9358682 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 344. Can: (Ts:    9359702 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 345. Can: (Ts:    9360572 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 346. Can: (Ts:    9379197 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 347. Can: (Ts:    9380157 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 b0 90
+ 348. Can: (Ts:    9381150 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 349. Can: (Ts:    9381991 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 350. Can: (Ts:    9383409 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 351. Can: (Ts:    9384560 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 352. Can: (Ts:    9392685 uS): ext=0, id=0x000006DB, rtr=0, len: 8 30 42 03 00 01 00 03 03
+ 353. Can: (Ts:    9401095 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 354. Can: (Ts:    9414303 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 355. Can: (Ts:    9418557 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 356. Can: (Ts:    9419602 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 357. Can: (Ts:    9421092 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 358. Can: (Ts:    9429345 uS): ext=0, id=0x00000397, rtr=0, len: 8 8d 8d 00 00 00 00 00 00
+ 359. Can: (Ts:    9430114 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 360. Can: (Ts:    9431396 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 361. Can: (Ts:    9432266 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 c0 e0
+ 362. Can: (Ts:    9441099 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 363. Can: (Ts:    9442237 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 364. Can: (Ts:    9442908 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 365. Can: (Ts:    9459499 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 366. Can: (Ts:    9460518 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 367. Can: (Ts:    9461359 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 368. Can: (Ts:    9462226 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 369. Can: (Ts:    9463478 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 370. Can: (Ts:    9479186 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 371. Can: (Ts:    9480158 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 d0 f0
+ 372. Can: (Ts:    9481130 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 373. Can: (Ts:    9481979 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 374. Can: (Ts:    9483198 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 375. Can: (Ts:    9501119 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 376. Can: (Ts:    9512821 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 377. Can: (Ts:    9519360 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 378. Can: (Ts:    9520409 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 379. Can: (Ts:    9521259 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 380. Can: (Ts:    9529341 uS): ext=0, id=0x00000397, rtr=0, len: 8 8e 8e 00 00 00 00 00 00
+ 381. Can: (Ts:    9530122 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 382. Can: (Ts:    9532262 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 e0 c0
+ 383. Can: (Ts:    9533145 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 384. Can: (Ts:    9534364 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 385. Can: (Ts:    9535065 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 386. Can: (Ts:    9541109 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 387. Can: (Ts:    9542247 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 388. Can: (Ts:    9542918 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 389. Can: (Ts:    9553164 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 390. Can: (Ts:    9559071 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 391. Can: (Ts:    9560311 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 392. Can: (Ts:    9561330 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 393. Can: (Ts:    9579181 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 394. Can: (Ts:    9580158 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 f0 d0
+ 395. Can: (Ts:    9581130 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 396. Can: (Ts:    9584330 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 397. Can: (Ts:    9601121 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 398. Can: (Ts:    9604235 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 399. Can: (Ts:    9620176 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 400. Can: (Ts:    9621225 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 401. Can: (Ts:    9622065 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 402. Can: (Ts:    9629346 uS): ext=0, id=0x00000397, rtr=0, len: 8 8f 8f 00 00 00 00 00 00
+ 403. Can: (Ts:    9630147 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 404. Can: (Ts:    9631460 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 405. Can: (Ts:    9632339 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+ 406. Can: (Ts:    9633400 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+ 407. Can: (Ts:    9634680 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+ 408. Can: (Ts:    9635772 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+ 409. Can: (Ts:    9641135 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 410. Can: (Ts:    9642273 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 411. Can: (Ts:    9642943 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 412. Can: (Ts:    9653852 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 413. Can: (Ts:    9661123 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 414. Can: (Ts:    9661951 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 415. Can: (Ts:    9662970 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 416. Can: (Ts:    9663841 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 417. Can: (Ts:    9679178 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 418. Can: (Ts:    9680151 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+ 419. Can: (Ts:    9681123 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 420. Can: (Ts:    9681951 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 421. Can: (Ts:    9683170 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 422. Can: (Ts:    9684423 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 423. Can: (Ts:    9701111 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 424. Can: (Ts:    9702462 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 425. Can: (Ts:    9720991 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 426. Can: (Ts:    9721819 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 427. Can: (Ts:    9722868 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 428. Can: (Ts:    9729361 uS): ext=0, id=0x00000397, rtr=0, len: 8 80 80 00 00 00 00 00 00
+ 429. Can: (Ts:    9730130 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 430. Can: (Ts:    9731429 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 431. Can: (Ts:    9734403 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 432. Can: (Ts:    9735104 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 433. Can: (Ts:    9735893 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 434. Can: (Ts:    9741095 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 435. Can: (Ts:    9742237 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 436. Can: (Ts:    9742908 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 437. Can: (Ts:    9752673 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 438. Can: (Ts:    9753829 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 439. Can: (Ts:    9761099 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 440. Can: (Ts:    9762128 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 441. Can: (Ts:    9763147 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 442. Can: (Ts:    9779176 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 443. Can: (Ts:    9780140 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 30 10
+ 444. Can: (Ts:    9781108 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 445. Can: (Ts:    9781949 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 446. Can: (Ts:    9783168 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 447. Can: (Ts:    9799058 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 448. Can: (Ts:    9801118 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 449. Can: (Ts:    9821122 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 450. Can: (Ts:    9822171 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 451. Can: (Ts:    9823199 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 452. Can: (Ts:    9829339 uS): ext=0, id=0x00000397, rtr=0, len: 8 81 81 00 00 00 00 00 00
+ 453. Can: (Ts:    9830108 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 454. Can: (Ts:    9831392 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 455. Can: (Ts:    9832271 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 40 60
+ 456. Can: (Ts:    9841123 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 457. Can: (Ts:    9842261 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 458. Can: (Ts:    9842932 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 459. Can: (Ts:    9844151 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 460. Can: (Ts:    9861112 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 461. Can: (Ts:    9862751 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 462. Can: (Ts:    9863767 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 463. Can: (Ts:    9864637 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 464. Can: (Ts:    9879167 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 465. Can: (Ts:    9880148 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+ 466. Can: (Ts:    9881120 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 467. Can: (Ts:    9881948 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 468. Can: (Ts:    9883171 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 469. Can: (Ts:    9893400 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 470. Can: (Ts:    9901102 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 471. Can: (Ts:    9921123 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 472. Can: (Ts:    9922609 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 473. Can: (Ts:    9923658 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 474. Can: (Ts:    9929348 uS): ext=0, id=0x00000397, rtr=0, len: 8 82 82 00 00 00 00 00 00
+ 475. Can: (Ts:    9930121 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 476. Can: (Ts:    9931421 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 477. Can: (Ts:    9934395 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 478. Can: (Ts:    9941105 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 479. Can: (Ts:    9942248 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 480. Can: (Ts:    9942918 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 481. Can: (Ts:    9944269 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 482. Can: (Ts:    9954481 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 483. Can: (Ts:    9961131 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 484. Can: (Ts:    9963559 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 485. Can: (Ts:    9964578 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 486. Can: (Ts:    9965445 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 487. Can: (Ts:    9979167 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 488. Can: (Ts:    9980139 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+ 489. Can: (Ts:    9981107 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 490. Can: (Ts:    9981939 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 491. Can: (Ts:    9983158 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 492. Can: (Ts:    9984309 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 493. Can: (Ts:    9992545 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 494. Can: (Ts:   10001104 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 495. Can: (Ts:   10021116 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 496. Can: (Ts:   10023423 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 497. Can: (Ts:   10024472 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 498. Can: (Ts:   10029352 uS): ext=0, id=0x00000397, rtr=0, len: 8 83 83 00 00 00 00 00 00
+ 499. Can: (Ts:   10031401 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 500. Can: (Ts:   10032272 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 80 a0
+ 501. Can: (Ts:   10039046 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 502. Can: (Ts:   10041106 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 503. Can: (Ts:   10042245 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 504. Can: (Ts:   10061099 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 505. Can: (Ts:   10064375 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 506. Can: (Ts:   10065390 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 507. Can: (Ts:   10066260 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 508. Can: (Ts:   10079162 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 509. Can: (Ts:   10080113 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 90 b0
+ 510. Can: (Ts:   10081081 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 511. Can: (Ts:   10081913 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 512. Can: (Ts:   10083132 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 513. Can: (Ts:   10084351 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 514. Can: (Ts:   10101114 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 515. Can: (Ts:   10121122 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 516. Can: (Ts:   10124237 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 517. Can: (Ts:   10125286 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 518. Can: (Ts:   10129306 uS): ext=0, id=0x00000397, rtr=0, len: 8 84 84 00 00 00 00 00 00
+ 519. Can: (Ts:   10130129 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 520. Can: (Ts:   10131399 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 521. Can: (Ts:   10132269 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 a0 80
+ 522. Can: (Ts:   10133488 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 523. Can: (Ts:   10135398 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 524. Can: (Ts:   10139471 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 525. Can: (Ts:   10141415 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 526. Can: (Ts:   10142553 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 527. Can: (Ts:   10143228 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 528. Can: (Ts:   10155145 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 529. Can: (Ts:   10161125 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 530. Can: (Ts:   10165178 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 531. Can: (Ts:   10166197 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 532. Can: (Ts:   10167068 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 533. Can: (Ts:   10179158 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 534. Can: (Ts:   10180118 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 b0 90
+ 535. Can: (Ts:   10181090 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 536. Can: (Ts:   10184400 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 537. Can: (Ts:   10185538 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 538. Can: (Ts:   10186791 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 539. Can: (Ts:   10187670 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+ 540. Can: (Ts:   10201099 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 541. Can: (Ts:   10221103 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 542. Can: (Ts:   10225044 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 543. Can: (Ts:   10226093 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 544. Can: (Ts:   10229305 uS): ext=0, id=0x00000397, rtr=0, len: 8 85 85 00 00 00 00 00 00
+ 545. Can: (Ts:   10241128 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 546. Can: (Ts:   10261111 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 547. Can: (Ts:   10265989 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 548. Can: (Ts:   10267008 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 549. Can: (Ts:   10267879 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 550. Can: (Ts:   10279038 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 551. Can: (Ts:   10280338 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 552. Can: (Ts:   10281221 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 553. Can: (Ts:   10282062 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 d0 f0
+ 554. Can: (Ts:   10283281 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 555. Can: (Ts:   10284219 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 556. Can: (Ts:   10301101 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 557. Can: (Ts:   10321101 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 558. Can: (Ts:   10323008 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 559. Can: (Ts:   10325863 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 560. Can: (Ts:   10326912 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 561. Can: (Ts:   10329304 uS): ext=0, id=0x00000397, rtr=0, len: 8 86 86 00 00 00 00 00 00
+ 562. Can: (Ts:   10330077 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 563. Can: (Ts:   10331347 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 564. Can: (Ts:   10332217 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 e0 c0
+ 565. Can: (Ts:   10333097 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 566. Can: (Ts:   10334319 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 567. Can: (Ts:   10335020 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 568. Can: (Ts:   10341111 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 569. Can: (Ts:   10342923 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 570. Can: (Ts:   10355793 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 571. Can: (Ts:   10361101 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 572. Can: (Ts:   10366812 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 573. Can: (Ts:   10367831 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 574. Can: (Ts:   10368698 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 575. Can: (Ts:   10379145 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 576. Can: (Ts:   10380122 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 f0 d0
+ 577. Can: (Ts:   10381094 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 578. Can: (Ts:   10381926 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 579. Can: (Ts:   10383145 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 580. Can: (Ts:   10391651 uS): ext=0, id=0x000006DB, rtr=0, len: 8 80 08 30 43 38 07 43 bf
+ 581. Can: (Ts:   10401102 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 582. Can: (Ts:   10421112 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 583. Can: (Ts:   10422462 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 584. Can: (Ts:   10426677 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 585. Can: (Ts:   10427726 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 586. Can: (Ts:   10429358 uS): ext=0, id=0x00000397, rtr=0, len: 8 87 87 00 00 00 00 00 00
+ 587. Can: (Ts:   10430126 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 588. Can: (Ts:   10432287 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+ 589. Can: (Ts:   10441130 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 590. Can: (Ts:   10442060 uS): ext=0, id=0x000006DB, rtr=0, len: 5 c0 7c 03 44 00
+ 591. Can: (Ts:   10443100 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 592. Can: (Ts:   10443771 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 593. Can: (Ts:   10461119 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 594. Can: (Ts:   10467620 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 595. Can: (Ts:   10468640 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 596. Can: (Ts:   10469506 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 597. Can: (Ts:   10472276 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 598. Can: (Ts:   10479139 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 599. Can: (Ts:   10480107 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+ 600. Can: (Ts:   10481079 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 601. Can: (Ts:   10481929 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 602. Can: (Ts:   10483148 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 603. Can: (Ts:   10501118 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 604. Can: (Ts:   10519018 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 605. Can: (Ts:   10521108 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 606. Can: (Ts:   10527487 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 607. Can: (Ts:   10528536 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 608. Can: (Ts:   10529758 uS): ext=0, id=0x00000397, rtr=0, len: 8 88 88 00 00 00 00 00 00
+ 609. Can: (Ts:   10530527 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 610. Can: (Ts:   10531801 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 611. Can: (Ts:   10532689 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 20 00
+ 612. Can: (Ts:   10533572 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 613. Can: (Ts:   10534791 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 614. Can: (Ts:   10535494 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 615. Can: (Ts:   10541102 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 616. Can: (Ts:   10542245 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 617. Can: (Ts:   10556443 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 618. Can: (Ts:   10561125 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 619. Can: (Ts:   10562621 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 620. Can: (Ts:   10568430 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 621. Can: (Ts:   10569449 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 622. Can: (Ts:   10570319 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 623. Can: (Ts:   10579129 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 624. Can: (Ts:   10579991 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 30 10
+ 625. Can: (Ts:   10580963 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 626. Can: (Ts:   10581800 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 627. Can: (Ts:   10583023 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 628. Can: (Ts:   10584271 uS): ext=0, id=0x000003E3, rtr=0, len: 8 ff ff ff 00 00 fe 00 ff
+ 629. Can: (Ts:   10585422 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 630. Can: (Ts:   10601134 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 631. Can: (Ts:   10612064 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 632. Can: (Ts:   10621105 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 633. Can: (Ts:   10628299 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 634. Can: (Ts:   10629509 uS): ext=0, id=0x00000397, rtr=0, len: 8 89 89 00 00 00 00 00 00
+ 635. Can: (Ts:   10630558 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 636. Can: (Ts:   10631301 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 637. Can: (Ts:   10633453 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 40 60
+ 638. Can: (Ts:   10634511 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+ 639. Can: (Ts:   10635793 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+ 640. Can: (Ts:   10636885 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+ 641. Can: (Ts:   10641104 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 642. Can: (Ts:   10642247 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 643. Can: (Ts:   10642917 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 644. Can: (Ts:   10661119 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 645. Can: (Ts:   10662470 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 646. Can: (Ts:   10669247 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 647. Can: (Ts:   10670267 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 648. Can: (Ts:   10671133 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 649. Can: (Ts:   10679122 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 650. Can: (Ts:   10680005 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+ 651. Can: (Ts:   10680978 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 652. Can: (Ts:   10701107 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 653. Can: (Ts:   10712160 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 654. Can: (Ts:   10721101 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 655. Can: (Ts:   10729273 uS): ext=0, id=0x00000397, rtr=0, len: 8 8a 8a 00 00 00 00 00 00
+ 656. Can: (Ts:   10730322 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 657. Can: (Ts:   10731061 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 658. Can: (Ts:   10732089 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 659. Can: (Ts:   10733333 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 660. Can: (Ts:   10734203 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 60 40
+ 661. Can: (Ts:   10735082 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 662. Can: (Ts:   10736305 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 663. Can: (Ts:   10737795 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 664. Can: (Ts:   10741117 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 665. Can: (Ts:   10742256 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 666. Can: (Ts:   10757103 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 667. Can: (Ts:   10759007 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 668. Can: (Ts:   10761127 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 669. Can: (Ts:   10770059 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 670. Can: (Ts:   10771078 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 671. Can: (Ts:   10771949 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 672. Can: (Ts:   10779118 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 673. Can: (Ts:   10779988 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+ 674. Can: (Ts:   10780961 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 675. Can: (Ts:   10781810 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 676. Can: (Ts:   10783029 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 677. Can: (Ts:   10784180 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 678. Can: (Ts:   10801132 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 679. Can: (Ts:   10802351 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 680. Can: (Ts:   10821120 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 681. Can: (Ts:   10829270 uS): ext=0, id=0x00000397, rtr=0, len: 8 8b 8b 00 00 00 00 00 00
+ 682. Can: (Ts:   10830298 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 683. Can: (Ts:   10831041 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 684. Can: (Ts:   10832090 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 685. Can: (Ts:   10833330 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 686. Can: (Ts:   10834201 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 80 a0
+ 687. Can: (Ts:   10841110 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 688. Can: (Ts:   10842253 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 689. Can: (Ts:   10842923 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 690. Can: (Ts:   10851618 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 691. Can: (Ts:   10861108 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 692. Can: (Ts:   10870869 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 693. Can: (Ts:   10871888 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 694. Can: (Ts:   10872759 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 695. Can: (Ts:   10879118 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 696. Can: (Ts:   10880069 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 90 b0
+ 697. Can: (Ts:   10881041 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 698. Can: (Ts:   10883112 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 699. Can: (Ts:   10901123 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 700. Can: (Ts:   10902474 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 701. Can: (Ts:   10921135 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 702. Can: (Ts:   10929285 uS): ext=0, id=0x00000397, rtr=0, len: 8 8c 8c 00 00 00 00 00 00
+ 703. Can: (Ts:   10930054 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 704. Can: (Ts:   10931086 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 705. Can: (Ts:   10935095 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 706. Can: (Ts:   10936315 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 707. Can: (Ts:   10937015 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 708. Can: (Ts:   10941108 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 709. Can: (Ts:   10942247 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 710. Can: (Ts:   10942918 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 711. Can: (Ts:   10952035 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 712. Can: (Ts:   10957763 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 713. Can: (Ts:   10961107 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 714. Can: (Ts:   10971676 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 715. Can: (Ts:   10972695 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 716. Can: (Ts:   10973565 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 717. Can: (Ts:   10979115 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 718. Can: (Ts:   10980075 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 b0 90
+ 719. Can: (Ts:   10981047 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 720. Can: (Ts:   10981888 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 721. Can: (Ts:   10983107 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 722. Can: (Ts:   10984258 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 723. Can: (Ts:   10998996 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 04 00 00
+ 724. Can: (Ts:   11001107 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 725. Can: (Ts:   11021108 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 726. Can: (Ts:   11029259 uS): ext=0, id=0x00000397, rtr=0, len: 8 8d 8d 00 00 00 00 00 00
+ 727. Can: (Ts:   11030028 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 728. Can: (Ts:   11031310 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 729. Can: (Ts:   11032359 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 730. Can: (Ts:   11033386 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 731. Can: (Ts:   11034227 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 c0 e0
+ 732. Can: (Ts:   11041107 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 733. Can: (Ts:   11042326 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 734. Can: (Ts:   11043366 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 735. Can: (Ts:   11044037 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 736. Can: (Ts:   11061117 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 737. Can: (Ts:   11072486 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 738. Can: (Ts:   11073505 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 739. Can: (Ts:   11074375 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 740. Can: (Ts:   11079106 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 741. Can: (Ts:   11080078 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 d0 f0
+ 742. Can: (Ts:   11081047 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 743. Can: (Ts:   11081900 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 744. Can: (Ts:   11083119 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 745. Can: (Ts:   11091172 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 746. Can: (Ts:   11101133 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 747. Can: (Ts:   11121137 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 748. Can: (Ts:   11129253 uS): ext=0, id=0x00000397, rtr=0, len: 8 8e 8e 00 00 00 00 00 00
+ 749. Can: (Ts:   11130077 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 750. Can: (Ts:   11131386 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 751. Can: (Ts:   11135365 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+ 752. Can: (Ts:   11136248 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 753. Can: (Ts:   11137467 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 754. Can: (Ts:   11139458 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+ 755. Can: (Ts:   11140248 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 756. Can: (Ts:   11141340 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+ 757. Can: (Ts:   11143322 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 758. Can: (Ts:   11144044 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 759. Can: (Ts:   11145403 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 04 00 00
+ 760. Can: (Ts:   11158420 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 761. Can: (Ts:   11161114 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 762. Can: (Ts:   11173302 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 763. Can: (Ts:   11174321 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 764. Can: (Ts:   11175187 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 765. Can: (Ts:   11179101 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 766. Can: (Ts:   11180078 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 f0 d0
+ 767. Can: (Ts:   11181050 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 768. Can: (Ts:   11181882 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 769. Can: (Ts:   11183101 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 770. Can: (Ts:   11184260 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 771. Can: (Ts:   11185522 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 772. Can: (Ts:   11186413 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+ 773. Can: (Ts:   11191899 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 774. Can: (Ts:   11201130 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 775. Can: (Ts:   11221122 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 776. Can: (Ts:   11229260 uS): ext=0, id=0x00000397, rtr=0, len: 8 8f 8f 00 00 00 00 00 00
+ 777. Can: (Ts:   11230033 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 778. Can: (Ts:   11231332 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 779. Can: (Ts:   11232216 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+ 780. Can: (Ts:   11233243 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 781. Can: (Ts:   11234292 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 782. Can: (Ts:   11239000 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 00 00 00
+ 783. Can: (Ts:   11241142 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 784. Can: (Ts:   11242953 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 785. Can: (Ts:   11261113 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 786. Can: (Ts:   11274123 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 787. Can: (Ts:   11275142 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 788. Can: (Ts:   11276008 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 789. Can: (Ts:   11279089 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 790. Can: (Ts:   11279959 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+ 791. Can: (Ts:   11280931 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 792. Can: (Ts:   11281760 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 793. Can: (Ts:   11282983 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 794. Can: (Ts:   11284198 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 795. Can: (Ts:   11301120 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 796. Can: (Ts:   11321111 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 797. Can: (Ts:   11329283 uS): ext=0, id=0x00000397, rtr=0, len: 8 80 80 00 00 00 00 00 00
+ 798. Can: (Ts:   11330052 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 799. Can: (Ts:   11331270 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 800. Can: (Ts:   11332510 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 801. Can: (Ts:   11333381 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 20 00
+ 802. Can: (Ts:   11337530 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 803. Can: (Ts:   11339034 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+ 804. Can: (Ts:   11341111 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 805. Can: (Ts:   11342253 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 806. Can: (Ts:   11342924 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 807. Can: (Ts:   11359078 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 808. Can: (Ts:   11361108 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 809. Can: (Ts:   11374933 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 810. Can: (Ts:   11375952 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 811. Can: (Ts:   11376822 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 812. Can: (Ts:   11379091 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 813. Can: (Ts:   11379953 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 30 10
+ 814. Can: (Ts:   11380925 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 815. Can: (Ts:   11384206 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 02 00 00
+ 816. Can: (Ts:   11385446 uS): ext=0, id=0x000003E3, rtr=0, len: 8 ff ff ff 00 00 fe 00 ff
+ 817. Can: (Ts:   11386597 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 818. Can: (Ts:   11390914 uS): ext=0, id=0x000006DB, rtr=0, len: 3 30 44 0a
+ 819. Can: (Ts:   11401134 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 820. Can: (Ts:   11421136 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 821. Can: (Ts:   11429257 uS): ext=0, id=0x00000397, rtr=0, len: 8 81 81 00 00 00 00 00 00
+ 822. Can: (Ts:   11430025 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 823. Can: (Ts:   11431316 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 824. Can: (Ts:   11432565 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 825. Can: (Ts:   11433418 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 40 60
+ 826. Can: (Ts:   11434794 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 827. Can: (Ts:   11435843 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 828. Can: (Ts:   11441134 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 829. Can: (Ts:   11442276 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 830. Can: (Ts:   11461126 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 831. Can: (Ts:   11475739 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 832. Can: (Ts:   11476758 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 833. Can: (Ts:   11477628 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 834. Can: (Ts:   11480380 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 835. Can: (Ts:   11482451 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 836. Can: (Ts:   11483300 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+ 837. Can: (Ts:   11484272 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 838. Can: (Ts:   11501110 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 839. Can: (Ts:   11520969 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 840. Can: (Ts:   11521819 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 841. Can: (Ts:   11529268 uS): ext=0, id=0x00000397, rtr=0, len: 8 82 82 00 00 00 00 00 00
+ 842. Can: (Ts:   11530041 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 843. Can: (Ts:   11531310 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 844. Can: (Ts:   11532181 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 60 40
+ 845. Can: (Ts:   11534282 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 846. Can: (Ts:   11534984 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 847. Can: (Ts:   11541122 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 848. Can: (Ts:   11542265 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 849. Can: (Ts:   11542936 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 850. Can: (Ts:   11559735 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 851. Can: (Ts:   11561145 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 852. Can: (Ts:   11570290 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 853. Can: (Ts:   11576558 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 854. Can: (Ts:   11577577 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 855. Can: (Ts:   11578448 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 856. Can: (Ts:   11579688 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 857. Can: (Ts:   11580558 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+ 858. Can: (Ts:   11581390 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 859. Can: (Ts:   11582609 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 860. Can: (Ts:   11601110 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 861. Can: (Ts:   11611611 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 02 00 00
+ 862. Can: (Ts:   11621122 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 863. Can: (Ts:   11629264 uS): ext=0, id=0x00000397, rtr=0, len: 8 83 83 00 00 00 00 00 00
+ 864. Can: (Ts:   11630033 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 865. Can: (Ts:   11631345 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 866. Can: (Ts:   11632216 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 80 a0
+ 867. Can: (Ts:   11633277 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+ 868. Can: (Ts:   11634556 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+ 869. Can: (Ts:   11635647 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+ 870. Can: (Ts:   11637727 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 871. Can: (Ts:   11641117 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 872. Can: (Ts:   11642256 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 873. Can: (Ts:   11642926 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 874. Can: (Ts:   11661120 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 875. Can: (Ts:   11662368 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 876. Can: (Ts:   11677372 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 877. Can: (Ts:   11678391 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 878. Can: (Ts:   11679257 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 879. Can: (Ts:   11680498 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 880. Can: (Ts:   11681330 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 881. Can: (Ts:   11682549 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 882. Can: (Ts:   11683368 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 90 b0
+ 883. Can: (Ts:   11684608 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 884. Can: (Ts:   11685551 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 885. Can: (Ts:   11686421 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+ 886. Can: (Ts:   11701121 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 887. Can: (Ts:   11709170 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 00 00 00
+ 888. Can: (Ts:   11721133 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 889. Can: (Ts:   11729224 uS): ext=0, id=0x00000397, rtr=0, len: 8 84 84 00 00 00 00 00 00
+ 890. Can: (Ts:   11730035 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 891. Can: (Ts:   11731353 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 892. Can: (Ts:   11733106 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 893. Can: (Ts:   11734329 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 894. Can: (Ts:   11737235 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 895. Can: (Ts:   11741134 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 896. Can: (Ts:   11750615 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 897. Can: (Ts:   11760410 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 898. Can: (Ts:   11761259 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 899. Can: (Ts:   11778178 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 900. Can: (Ts:   11779197 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 901. Can: (Ts:   11780067 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 902. Can: (Ts:   11781308 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 903. Can: (Ts:   11782148 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 904. Can: (Ts:   11783367 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 905. Can: (Ts:   11784196 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 b0 90
+ 906. Can: (Ts:   11799853 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 907. Can: (Ts:   11801114 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 908. Can: (Ts:   11821114 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+ 909. Can: (Ts:   11829227 uS): ext=0, id=0x00000397, rtr=0, len: 8 85 85 00 00 00 00 00 00
+ 910. Can: (Ts:   11829995 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 911. Can: (Ts:   11831299 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 912. Can: (Ts:   11838049 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 913. Can: (Ts:   11839098 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 914. Can: (Ts:   11841137 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 915. Can: (Ts:   11842279 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 916. Can: (Ts:   11842950 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 917. Can: (Ts:   11844271 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 02 00 00
+ 918. Can: (Ts:   11861122 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 919. Can: (Ts:   11879062 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 920. Can: (Ts:   11880081 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 921. Can: (Ts:   11880947 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 922. Can: (Ts:   11881809 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 923. Can: (Ts:   11884059 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 924. Can: (Ts:   11885867 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 925. Can: (Ts:   11891505 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 01 01 04 00 04 00 00
+ 926. Can: (Ts:   11901118 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 927. Can: (Ts:   11921118 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+ 928. Can: (Ts:   11929219 uS): ext=0, id=0x00000397, rtr=0, len: 8 86 86 00 00 00 00 00 00
+ 929. Can: (Ts:   11930017 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 930. Can: (Ts:   11931291 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 931. Can: (Ts:   11932161 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 e0 c0
+ 932. Can: (Ts:   11933040 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 933. Can: (Ts:   11934264 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 934. Can: (Ts:   11934964 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+ 935. Can: (Ts:   11938965 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 00 00 00
+ 936. Can: (Ts:   11940014 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 937. Can: (Ts:   11941041 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 938. Can: (Ts:   11941882 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+ 939. Can: (Ts:   11943024 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 940. Can: (Ts:   11961118 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+ 941. Can: (Ts:   11961704 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 942. Can: (Ts:   11979055 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 943. Can: (Ts:   11980083 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 944. Can: (Ts:   11981302 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 945. Can: (Ts:   11982134 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+ 946. Can: (Ts:   11983153 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 947. Can: (Ts:   11984020 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 948. Can: (Ts:   11987232 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 949. Can: (Ts:   12001111 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+ 950. Can: (Ts:   12021124 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+ 951. Can: (Ts:   12029223 uS): ext=0, id=0x00000397, rtr=0, len: 8 87 87 00 00 00 00 00 00
+ 952. Can: (Ts:   12030442 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+ 953. Can: (Ts:   12031181 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 954. Can: (Ts:   12032455 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 955. Can: (Ts:   12033334 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+ 956. Can: (Ts:   12039674 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 957. Can: (Ts:   12040723 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+ 958. Can: (Ts:   12041573 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+ 959. Can: (Ts:   12042715 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+ 960. Can: (Ts:   12043386 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+ 961. Can: (Ts:   12061134 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+ 962. Can: (Ts:   12079056 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 963. Can: (Ts:   12079926 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+ 964. Can: (Ts:   12080954 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+ 965. Can: (Ts:   12081803 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+ 966. Can: (Ts:   12082822 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 967. Can: (Ts:   12083693 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 968. Can: (Ts:   12084912 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+ 969. Can: (Ts:   12086131 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 01 01 04 00 02 00 00
+ 970. Can: (Ts:   12087073 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 971. Can: (Ts:   12101123 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+ 972. Can: (Ts:   12121114 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+ 973. Can: (Ts:   12129216 uS): ext=0, id=0x00000397, rtr=0, len: 8 88 88 00 00 00 00 00 00
+ 974. Can: (Ts:   12130048 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+ 975. Can: (Ts:   12131317 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 976. Can: (Ts:   12132579 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+ 977. Can: (Ts:   12133416 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 20 00
+ 978. Can: (Ts:   12134477 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+ 979. Can: (Ts:   12135360 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+ 980. Can: (Ts:   12136579 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+ 981. Can: (Ts:   12144443 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 982. Can: (Ts:   12161143 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+ 983. Can: (Ts:   12161741 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+ 984. Can: (Ts:   12178953 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 00 00 00
+ 985. Can: (Ts:   12180274 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 986. Can: (Ts:   12181136 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+ 987. Can: (Ts:   12182151 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+ 988. Can: (Ts:   12183021 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+ 989. Can: (Ts:   12188282 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+ 990. Can: (Ts:   12189420 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+ 991. Can: (Ts:   12190671 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+ 992. Can: (Ts:   12191549 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+ 993. Can: (Ts:   12201150 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+ 994. Can: (Ts:   12221124 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+ 995. Can: (Ts:   12229202 uS): ext=0, id=0x00000397, rtr=0, len: 8 89 89 00 00 00 00 00 00
+ 996. Can: (Ts:   12230421 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 01 01 04 00 04 00 00
+ 997. Can: (Ts:   12232433 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+ 998. Can: (Ts:   12241299 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+ 999. Can: (Ts:   12242128 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+1000. Can: (Ts:   12243177 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1001. Can: (Ts:   12244221 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1002. Can: (Ts:   12244888 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1003. Can: (Ts:   12261132 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+1004. Can: (Ts:   12278960 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 01 01 04 00 04 00 00
+1005. Can: (Ts:   12280200 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1006. Can: (Ts:   12281079 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+1007. Can: (Ts:   12281911 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+1008. Can: (Ts:   12282939 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1009. Can: (Ts:   12283958 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1010. Can: (Ts:   12284828 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1011. Can: (Ts:   12286047 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1012. Can: (Ts:   12301119 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+1013. Can: (Ts:   12321120 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+1014. Can: (Ts:   12322441 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1015. Can: (Ts:   12329189 uS): ext=0, id=0x00000397, rtr=0, len: 8 8a 8a 00 00 00 00 00 00
+1016. Can: (Ts:   12330000 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1017. Can: (Ts:   12331321 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1018. Can: (Ts:   12332191 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 60 40
+1019. Can: (Ts:   12333075 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+1020. Can: (Ts:   12334293 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+1021. Can: (Ts:   12334994 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+1022. Can: (Ts:   12341125 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+1023. Can: (Ts:   12342156 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1024. Can: (Ts:   12343196 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1025. Can: (Ts:   12344245 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1026. Can: (Ts:   12344814 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1027. Can: (Ts:   12361137 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+1028. Can: (Ts:   12362373 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1029. Can: (Ts:   12371289 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1030. Can: (Ts:   12379040 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1031. Can: (Ts:   12379910 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+1032. Can: (Ts:   12380883 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1033. Can: (Ts:   12381732 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+1034. Can: (Ts:   12384842 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1035. Can: (Ts:   12401136 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+1036. Can: (Ts:   12418926 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 02 00 00
+1037. Can: (Ts:   12421126 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+1038. Can: (Ts:   12429176 uS): ext=0, id=0x00000397, rtr=0, len: 8 8b 8b 00 00 00 00 00 00
+1039. Can: (Ts:   12429948 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1040. Can: (Ts:   12431260 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1041. Can: (Ts:   12441121 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+1042. Can: (Ts:   12442259 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1043. Can: (Ts:   12443291 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1044. Can: (Ts:   12443860 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1045. Can: (Ts:   12444909 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1046. Can: (Ts:   12461119 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+1047. Can: (Ts:   12469368 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 11 01 00 00 04 00 00
+1048. Can: (Ts:   12479035 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1049. Can: (Ts:   12479889 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 90 b0
+1050. Can: (Ts:   12480870 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1051. Can: (Ts:   12481719 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+1052. Can: (Ts:   12482938 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1053. Can: (Ts:   12483966 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1054. Can: (Ts:   12484985 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1055. Can: (Ts:   12501128 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+1056. Can: (Ts:   12518515 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 11 01 00 00 04 00 00
+1057. Can: (Ts:   12521154 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+1058. Can: (Ts:   12529194 uS): ext=0, id=0x00000397, rtr=0, len: 8 8c 8c 00 00 00 00 00 00
+1059. Can: (Ts:   12529988 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1060. Can: (Ts:   12531257 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1061. Can: (Ts:   12532128 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 a0 80
+1062. Can: (Ts:   12533007 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+1063. Can: (Ts:   12534230 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+1064. Can: (Ts:   12534930 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+1065. Can: (Ts:   12541120 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+1066. Can: (Ts:   12542262 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1067. Can: (Ts:   12561121 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+1068. Can: (Ts:   12562442 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1069. Can: (Ts:   12563040 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1070. Can: (Ts:   12579023 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1071. Can: (Ts:   12579881 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 b0 90
+1072. Can: (Ts:   12580862 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1073. Can: (Ts:   12581703 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+1074. Can: (Ts:   12517386 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1075. Can: (Ts:   12584083 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+1076. Can: (Ts:   12585110 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1077. Can: (Ts:   12586129 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1078. Can: (Ts:   12601121 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+1079. Can: (Ts:   12611133 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1080. Can: (Ts:   12621124 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+1081. Can: (Ts:   12629177 uS): ext=0, id=0x00000397, rtr=0, len: 8 8d 8d 00 00 00 00 00 00
+1082. Can: (Ts:   12629979 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1083. Can: (Ts:   12631287 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1084. Can: (Ts:   12632157 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 c0 e0
+1085. Can: (Ts:   12633219 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+1086. Can: (Ts:   12634498 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+1087. Can: (Ts:   12635589 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+1088. Can: (Ts:   12641122 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+1089. Can: (Ts:   12642260 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1090. Can: (Ts:   12642931 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1091. Can: (Ts:   12644540 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1092. Can: (Ts:   12645589 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1093. Can: (Ts:   12658918 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 02 00 00
+1094. Can: (Ts:   12661131 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+1095. Can: (Ts:   12679019 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1096. Can: (Ts:   12679889 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 d0 f0
+1097. Can: (Ts:   12680862 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1098. Can: (Ts:   12681711 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+1099. Can: (Ts:   12687159 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1100. Can: (Ts:   12688028 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1101. Can: (Ts:   12701139 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+1102. Can: (Ts:   12708959 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 11 01 00 00 04 00 00
+1103. Can: (Ts:   12721136 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+1104. Can: (Ts:   12729180 uS): ext=0, id=0x00000397, rtr=0, len: 8 8e 8e 00 00 00 00 00 00
+1105. Can: (Ts:   12729978 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1106. Can: (Ts:   12731299 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1107. Can: (Ts:   12733052 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+1108. Can: (Ts:   12734271 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+1109. Can: (Ts:   12734971 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+1110. Can: (Ts:   12735765 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+1111. Can: (Ts:   12741132 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+1112. Can: (Ts:   12742274 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1113. Can: (Ts:   12742945 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1114. Can: (Ts:   12745354 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1115. Can: (Ts:   12746399 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1116. Can: (Ts:   12758068 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 11 01 00 00 04 00 00
+1117. Can: (Ts:   12761119 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+1118. Can: (Ts:   12763676 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1119. Can: (Ts:   12779018 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1120. Can: (Ts:   12779899 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 f0 d0
+1121. Can: (Ts:   12780867 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1122. Can: (Ts:   12781699 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+1123. Can: (Ts:   12782918 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1124. Can: (Ts:   12784069 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+1125. Can: (Ts:   12786303 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1126. Can: (Ts:   12787323 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1127. Can: (Ts:   12788193 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1128. Can: (Ts:   12801142 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+1129. Can: (Ts:   12802463 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1130. Can: (Ts:   12821136 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+1131. Can: (Ts:   12829185 uS): ext=0, id=0x00000397, rtr=0, len: 8 8f 8f 00 00 00 00 00 00
+1132. Can: (Ts:   12829958 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1133. Can: (Ts:   12831249 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1134. Can: (Ts:   12832128 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+1135. Can: (Ts:   12841150 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+1136. Can: (Ts:   12842288 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1137. Can: (Ts:   12842959 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1138. Can: (Ts:   12846164 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1139. Can: (Ts:   12847213 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1140. Can: (Ts:   12851011 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1141. Can: (Ts:   12861121 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+1142. Can: (Ts:   12879013 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1143. Can: (Ts:   12879883 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+1144. Can: (Ts:   12880852 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1145. Can: (Ts:   12881684 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+1146. Can: (Ts:   12882903 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1147. Can: (Ts:   12887118 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1148. Can: (Ts:   12888133 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1149. Can: (Ts:   12889003 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1150. Can: (Ts:   12898905 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 02 00 00
+1151. Can: (Ts:   12901135 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+1152. Can: (Ts:   12921125 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+1153. Can: (Ts:   12929195 uS): ext=0, id=0x00000397, rtr=0, len: 8 80 80 00 00 00 00 00 00
+1154. Can: (Ts:   12929967 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1155. Can: (Ts:   12931237 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1156. Can: (Ts:   12932107 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 20 00
+1157. Can: (Ts:   12935700 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+1158. Can: (Ts:   12941122 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+1159. Can: (Ts:   12942264 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1160. Can: (Ts:   12942935 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1161. Can: (Ts:   12946976 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1162. Can: (Ts:   12948025 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1163. Can: (Ts:   12961125 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+1164. Can: (Ts:   12964341 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1165. Can: (Ts:   12979000 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1166. Can: (Ts:   12979862 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 30 10
+1167. Can: (Ts:   12980843 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1168. Can: (Ts:   12981684 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+1169. Can: (Ts:   12982902 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1170. Can: (Ts:   12984151 uS): ext=0, id=0x000003E3, rtr=0, len: 8 ff ff ff 00 00 fe 00 ff
+1171. Can: (Ts:   12985302 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+1172. Can: (Ts:   12987928 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1173. Can: (Ts:   12988947 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1174. Can: (Ts:   12989817 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1175. Can: (Ts:   12997624 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 11 01 00 00 04 00 00
+1176. Can: (Ts:   13001142 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+1177. Can: (Ts:   13021146 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+1178. Can: (Ts:   13029173 uS): ext=0, id=0x00000397, rtr=0, len: 8 81 81 00 00 00 00 00 00
+1179. Can: (Ts:   13029946 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1180. Can: (Ts:   13031228 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1181. Can: (Ts:   13032107 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 40 60
+1182. Can: (Ts:   13041147 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+1183. Can: (Ts:   13042290 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1184. Can: (Ts:   13042961 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1185. Can: (Ts:   13044282 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1186. Can: (Ts:   13047796 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1187. Can: (Ts:   13048845 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1188. Can: (Ts:   13061135 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+1189. Can: (Ts:   13079005 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1190. Can: (Ts:   13079884 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+1191. Can: (Ts:   13080857 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1192. Can: (Ts:   13081685 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+1193. Can: (Ts:   13082908 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1194. Can: (Ts:   13088735 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1195. Can: (Ts:   13089753 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1196. Can: (Ts:   13090623 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1197. Can: (Ts:   13091884 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1198. Can: (Ts:   13101123 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+1199. Can: (Ts:   13121146 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+1200. Can: (Ts:   13129186 uS): ext=0, id=0x00000397, rtr=0, len: 8 82 82 00 00 00 00 00 00
+1201. Can: (Ts:   13129997 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1202. Can: (Ts:   13131267 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1203. Can: (Ts:   13132137 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 60 40
+1204. Can: (Ts:   13133199 uS): ext=0, id=0x00000571, rtr=0, len: 6 96 00 00 00 00 00
+1205. Can: (Ts:   13137281 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+1206. Can: (Ts:   13138074 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+1207. Can: (Ts:   13139315 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 02 00 00
+1208. Can: (Ts:   13140402 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+1209. Can: (Ts:   13141246 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+1210. Can: (Ts:   13142385 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1211. Can: (Ts:   13148608 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1212. Can: (Ts:   13149657 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1213. Can: (Ts:   13161157 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+1214. Can: (Ts:   13165002 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1215. Can: (Ts:   13178990 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1216. Can: (Ts:   13179860 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 70 50
+1217. Can: (Ts:   13181664 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+1218. Can: (Ts:   13182883 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1219. Can: (Ts:   13185294 uS): ext=0, id=0x000005E8, rtr=0, len: 8 00 00 ff ff 00 00 00 00
+1220. Can: (Ts:   13188139 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 11 01 00 00 04 00 00
+1221. Can: (Ts:   13189557 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1222. Can: (Ts:   13190576 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1223. Can: (Ts:   13191447 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1224. Can: (Ts:   13201127 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+1225. Can: (Ts:   13221136 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+1226. Can: (Ts:   13229176 uS): ext=0, id=0x00000397, rtr=0, len: 8 83 83 00 00 00 00 00 00
+1227. Can: (Ts:   13229948 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1228. Can: (Ts:   13231231 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1229. Can: (Ts:   13232101 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 80 a0
+1230. Can: (Ts:   13237179 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 11 01 00 00 04 00 00
+1231. Can: (Ts:   13241120 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+1232. Can: (Ts:   13242262 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1233. Can: (Ts:   13249421 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1234. Can: (Ts:   13250469 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1235. Can: (Ts:   13261132 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+1236. Can: (Ts:   13278990 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1237. Can: (Ts:   13279843 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 90 b0
+1238. Can: (Ts:   13280824 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1239. Can: (Ts:   13281652 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+1240. Can: (Ts:   13282871 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1241. Can: (Ts:   13284094 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1242. Can: (Ts:   13290362 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1243. Can: (Ts:   13291381 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1244. Can: (Ts:   13292251 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1245. Can: (Ts:   13301142 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+1246. Can: (Ts:   13321151 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+1247. Can: (Ts:   13329141 uS): ext=0, id=0x00000397, rtr=0, len: 8 84 84 00 00 00 00 00 00
+1248. Can: (Ts:   13329943 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1249. Can: (Ts:   13331204 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1250. Can: (Ts:   13332444 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1251. Can: (Ts:   13333315 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 a0 80
+1252. Can: (Ts:   13334194 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+1253. Can: (Ts:   13336909 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+1254. Can: (Ts:   13341146 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+1255. Can: (Ts:   13342288 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1256. Can: (Ts:   13342958 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1257. Can: (Ts:   13350225 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1258. Can: (Ts:   13351274 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1259. Can: (Ts:   13361146 uS): ext=0, id=0x00000289, rtr=0, len: 4 1c 00 1c 00
+1260. Can: (Ts:   13365658 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1261. Can: (Ts:   13378877 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 02 00 00
+1262. Can: (Ts:   13380210 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1263. Can: (Ts:   13381429 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1264. Can: (Ts:   13384238 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+1265. Can: (Ts:   13385181 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1266. Can: (Ts:   13390318 uS): ext=0, id=0x000006DB, rtr=0, len: 8 30 4e 03 00 00 00 00 00
+1267. Can: (Ts:   13391346 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1268. Can: (Ts:   13392365 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1269. Can: (Ts:   13393235 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1270. Can: (Ts:   13401127 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+1271. Can: (Ts:   13421126 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+1272. Can: (Ts:   13427734 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 11 01 00 00 04 00 00
+1273. Can: (Ts:   13429175 uS): ext=0, id=0x00000397, rtr=0, len: 8 85 85 00 00 00 00 00 00
+1274. Can: (Ts:   13429947 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1275. Can: (Ts:   13431247 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1276. Can: (Ts:   13432121 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 c0 e0
+1277. Can: (Ts:   13441149 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+1278. Can: (Ts:   13442291 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1279. Can: (Ts:   13451048 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1280. Can: (Ts:   13452097 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1281. Can: (Ts:   13461135 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+1282. Can: (Ts:   13476736 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 11 01 00 00 04 00 00
+1283. Can: (Ts:   13478980 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1284. Can: (Ts:   13479850 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 d0 f0
+1285. Can: (Ts:   13481069 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1286. Can: (Ts:   13481931 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+1287. Can: (Ts:   13482869 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1288. Can: (Ts:   13491985 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1289. Can: (Ts:   13493004 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1290. Can: (Ts:   13493870 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1291. Can: (Ts:   13501134 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+1292. Can: (Ts:   13521125 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+1293. Can: (Ts:   13522442 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1294. Can: (Ts:   13529135 uS): ext=0, id=0x00000397, rtr=0, len: 8 86 86 00 00 00 00 00 00
+1295. Can: (Ts:   13529933 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1296. Can: (Ts:   13531207 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1297. Can: (Ts:   13532078 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 e0 c0
+1298. Can: (Ts:   13532956 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+1299. Can: (Ts:   13534180 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+1300. Can: (Ts:   13534880 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+1301. Can: (Ts:   13541142 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+1302. Can: (Ts:   13542280 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1303. Can: (Ts:   13542951 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1304. Can: (Ts:   13551858 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1305. Can: (Ts:   13552907 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1306. Can: (Ts:   13561125 uS): ext=0, id=0x00000289, rtr=0, len: 4 bc 00 bc 00
+1307. Can: (Ts:   13566328 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1308. Can: (Ts:   13570624 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1309. Can: (Ts:   13578974 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1310. Can: (Ts:   13579858 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 f0 d0
+1311. Can: (Ts:   13581077 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1312. Can: (Ts:   13581905 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+1313. Can: (Ts:   13582847 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1314. Can: (Ts:   13592802 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1315. Can: (Ts:   13593821 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1316. Can: (Ts:   13594687 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1317. Can: (Ts:   13601130 uS): ext=0, id=0x00000289, rtr=0, len: 4 dc 00 dc 00
+1318. Can: (Ts:   13618868 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 01 0c 04 30 02 00 00
+1319. Can: (Ts:   13621141 uS): ext=0, id=0x00000289, rtr=0, len: 4 ec 00 ec 00
+1320. Can: (Ts:   13629139 uS): ext=0, id=0x00000397, rtr=0, len: 8 87 87 00 00 00 00 00 00
+1321. Can: (Ts:   13629920 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1322. Can: (Ts:   13632112 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 00 20
+1323. Can: (Ts:   13634455 uS): ext=0, id=0x000005F5, rtr=0, len: 8 00 10 00 00 00 00 00 00
+1324. Can: (Ts:   13635546 uS): ext=0, id=0x000006B4, rtr=0, len: 6 00 00 00 00 00 00
+1325. Can: (Ts:   13641143 uS): ext=0, id=0x00000289, rtr=0, len: 4 fc 00 fc 00
+1326. Can: (Ts:   13642285 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1327. Can: (Ts:   13642956 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1328. Can: (Ts:   13652667 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1329. Can: (Ts:   13653716 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1330. Can: (Ts:   13661148 uS): ext=0, id=0x00000289, rtr=0, len: 4 0c 00 0c 00
+1331. Can: (Ts:   13667327 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 11 01 00 00 04 00 00
+1332. Can: (Ts:   13678967 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1333. Can: (Ts:   13679841 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 10 30
+1334. Can: (Ts:   13681060 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1335. Can: (Ts:   13684971 uS): ext=0, id=0x000005F7, rtr=0, len: 4 00 00 00 00
+1336. Can: (Ts:   13693615 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1337. Can: (Ts:   13694634 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1338. Can: (Ts:   13701144 uS): ext=0, id=0x00000289, rtr=0, len: 4 2c 00 2c 00
+1339. Can: (Ts:   13716286 uS): ext=0, id=0x00000403, rtr=0, len: 8 0a 11 01 00 00 04 00 00
+1340. Can: (Ts:   13721126 uS): ext=0, id=0x00000289, rtr=0, len: 4 3c 00 3c 00
+1341. Can: (Ts:   13729136 uS): ext=0, id=0x00000397, rtr=0, len: 8 88 88 00 00 00 00 00 00
+1342. Can: (Ts:   13729927 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1343. Can: (Ts:   13731247 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1344. Can: (Ts:   13732118 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 20 00
+1345. Can: (Ts:   13733000 uS): ext=0, id=0x00000575, rtr=0, len: 4 10 20 00 00
+1346. Can: (Ts:   13734224 uS): ext=0, id=0x00000591, rtr=0, len: 8 00 10 0f 00 40 14 00 00
+1347. Can: (Ts:   13734920 uS): ext=0, id=0x000005D1, rtr=0, len: 2 10 00
+1348. Can: (Ts:   13735713 uS): ext=0, id=0x00000635, rtr=0, len: 3 00 00 00
+1349. Can: (Ts:   13741131 uS): ext=0, id=0x00000289, rtr=0, len: 4 4c 00 4c 00
+1350. Can: (Ts:   13742274 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1351. Can: (Ts:   13742945 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1352. Can: (Ts:   13753475 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1353. Can: (Ts:   13754524 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1354. Can: (Ts:   13761154 uS): ext=0, id=0x00000289, rtr=0, len: 4 5c 00 5c 00
+1355. Can: (Ts:   13762475 uS): ext=0, id=0x0000040A, rtr=0, len: 8 0c 11 01 00 00 02 00 00
+1356. Can: (Ts:   13766989 uS): ext=0, id=0x00000601, rtr=0, len: 1 00
+1357. Can: (Ts:   13778969 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1358. Can: (Ts:   13779831 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 30 10
+1359. Can: (Ts:   13781049 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1360. Can: (Ts:   13781890 uS): ext=0, id=0x00000289, rtr=0, len: 4 6c 00 6c 00
+1361. Can: (Ts:   13783130 uS): ext=0, id=0x000003E3, rtr=0, len: 8 ff ff ff 00 00 fe 00 ff
+1362. Can: (Ts:   13784069 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1363. Can: (Ts:   13785211 uS): ext=0, id=0x000005E1, rtr=0, len: 7 80 00 00 00 00 00 00
+1364. Can: (Ts:   13794424 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1365. Can: (Ts:   13795443 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1366. Can: (Ts:   13796310 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1367. Can: (Ts:   13801162 uS): ext=0, id=0x00000289, rtr=0, len: 4 7c 00 7c 00
+1368. Can: (Ts:   13810486 uS): ext=0, id=0x0000040C, rtr=0, len: 8 00 11 01 00 00 04 00 00
+1369. Can: (Ts:   13821127 uS): ext=0, id=0x00000289, rtr=0, len: 4 8c 00 8c 00
+1370. Can: (Ts:   13829118 uS): ext=0, id=0x00000397, rtr=0, len: 8 89 89 00 00 00 00 00 00
+1371. Can: (Ts:   13829887 uS): ext=0, id=0x00000457, rtr=0, len: 3 01 a1 00
+1372. Can: (Ts:   13831190 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1373. Can: (Ts:   13841129 uS): ext=0, id=0x00000289, rtr=0, len: 4 9c 00 9c 00
+1374. Can: (Ts:   13842271 uS): ext=0, id=0x000002C1, rtr=0, len: 6 00 00 8d 00 04 00
+1375. Can: (Ts:   13842942 uS): ext=0, id=0x000002C3, rtr=0, len: 1 10
+1376. Can: (Ts:   13854292 uS): ext=0, id=0x000004BD, rtr=0, len: 6 00 00 00 8c 00 00
+1377. Can: (Ts:   13855341 uS): ext=0, id=0x000004B9, rtr=0, len: 6 00 00 00 8c 00 00
+1378. Can: (Ts:   13858860 uS): ext=0, id=0x00000400, rtr=0, len: 8 02 11 0c 00 30 02 00 00
+1379. Can: (Ts:   13861141 uS): ext=0, id=0x00000289, rtr=0, len: 4 ac 00 ac 00
+1380. Can: (Ts:   13878961 uS): ext=0, id=0x00000470, rtr=0, len: 8 00 00 00 19 00 00 00 1f
+1381. Can: (Ts:   13879840 uS): ext=0, id=0x00000531, rtr=0, len: 4 00 20 50 70
+1382. Can: (Ts:   13881063 uS): ext=0, id=0x000003E1, rtr=0, len: 8 e0 00 ff 00 00 00 84 00
+1383. Can: (Ts:   13882832 uS): ext=0, id=0x000005DD, rtr=0, len: 5 00 00 90 00 00
+1384. Can: (Ts:   13895239 uS): ext=0, id=0x000003B5, rtr=0, len: 6 80 00 00 84 00 00
+1385. Can: (Ts:   13896258 uS): ext=0, id=0x00000381, rtr=0, len: 6 80 0c 01 84 00 00
+1386. Can: (Ts:   13897128 uS): ext=0, id=0x00000383, rtr=0, len: 4 00 00 00 00
+1387. Can: (Ts:   13901127 uS): ext=0, id=0x00000289, rtr=0, len: 4 cc 00 cc 00
+1388. Can: (Ts:   13906919 uS): ext=0, id=0x00000402, rtr=0, len: 8 03 31 01 00 00 04 00 00
