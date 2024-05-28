@@ -49,7 +49,7 @@ DWORD WINAPI recvThread(LPVOID params) {
             }
         }
         if ( UsbPacketId::CanDataToUsb == canFrameHead->id ) {
-            offs = snprintf(&str[0], maxStrSize, "%4d. Can: (Ts: %10u uS): ", frameNo, canFrameHead->ts);
+            offs = snprintf(&str[0], maxStrSize, "%4d. Can%d: (Ts: %10u uS): ",frameNo, canFrameHead->canId, canFrameHead->ts);
             offs += snprintf(&str[offs], maxStrSize, "ext=%1d, id=0x%08X, rtr=%1d, ", canFrameHead->ext, canFrameHead->frId, canFrameHead->rtr);
             offs += snprintf(&str[offs], maxStrSize, "len: %1d", canFrameHead->len);
             for (size_t index = 0; index < canFrameHead->len; index++) {
@@ -163,6 +163,7 @@ void canSendFrame( WinUsbInterface* const iface,
                    const bool waitTs, 
                    const time_us_t ts,
                    const uint8_t canId,
+                   const bool extendedFrameId,
                    const uint32_t frameId,
                    const bool rtr,
                    const uint8_t  len,
@@ -173,6 +174,7 @@ void canSendFrame( WinUsbInterface* const iface,
     frame.frId = frameId;
     frame.len = len;
     frame.rtr = rtr;
+    frame.ext = extendedFrameId;
     frame.wait = (waitTs) ? WaitMode::WaitTimestamp : WaitMode::DontWaitTimestamp;
     frame.ts = ts;
 
@@ -183,6 +185,27 @@ void canSendFrame( WinUsbInterface* const iface,
     iface->writePacket(buf, sendSize);
 }
 
+void canSetBaud(WinUsbInterface* const iface, 
+                const uint8_t canId,
+                const CanBaud baud) {
+    UsbToCanBaudHead frame;
+    frame.canId = canId;
+    frame.baud = baud;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(UsbDataToCanHead);
+    iface->writePacket(buf, sendSize);
+}
+
+void canSetEcho(WinUsbInterface* const iface,
+    const uint8_t canId,
+    const CanEcho echo ) {
+    UsbToCanEchoHead frame;
+    frame.canId = canId;
+    frame.echo = echo;
+    uint8_t* const buf = reinterpret_cast<uint8_t* const>(&frame);
+    const size_t sendSize = sizeof(UsbDataToCanHead);
+    iface->writePacket(buf, sendSize);
+}
 
 uint8_t calcLinId(const uint8_t id) {
     const uint8_t newId = id & 0x3F;
@@ -263,12 +286,17 @@ int main(int argc, char* argv[] ) {
             Sleep(2000);
 #else
 
-#if 0
+            canSetEcho( t, 0, CanEcho::Enabled);
+            canSetEcho( t, 0, CanEcho::Disabled );
+            canSetBaud( t, 0, CanBaud::Can_100Kbit );
+            canSetBaud( t, 1, CanBaud::Can_100Kbit );
+
+#if 1
             for (int num = 0; num < 20000; num++) {
-                uint8_t canOutPacket[8] = { 0x80, 0x70, 0x60, 0x50, 0x40, 0x30, 0x20, num };
-                canSendFrame(t, true, txTime, (num & 0x01),0xAAA, false, 8, canOutPacket);
-                txTime += 1000;
-            
+                uint8_t canOutPacket[8] = { 0x80, 0x70, 0x60, num, 0x40, 0x30, 0x20, 0x10 };
+                canSendFrame(t, true, txTime, 0, false, 0xFFFFFFFF, false, 8, canOutPacket);
+                //canSendFrame(t, true, txTime + 5000, 0, false, 0xFFFFFFFF, false, 8, canOutPacket);
+                txTime += 10000;
             }
 #endif
 
