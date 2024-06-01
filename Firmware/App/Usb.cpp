@@ -277,18 +277,20 @@ void usbDataInCallback(usbd_device *usbd_dev, uint8_t ep) {
 }
 
 void usbSendPacket() {
-	//int_lock_t key = intLock();
-	const PoolType pool = PoolType::PeriphToUsb;
-	const IndexType p = usbBufferGet( pool );
-	if ( InvalidIndex != p ) {
-		_usbTxInProgress = true;
-		usbBufferCheckout( pool, p );
-		uint8_t* const data = usbBufferGetDataPtr( pool, p );
-		const size_t size = usbBufferGetSize( pool, p );
-		usbd_ep_write_packet( usbDevice, usbInEndpointId, data, size );
-		usbBufferFree( pool, p );
+	int_lock_t key = intLock();
+	if (!_usbTxInProgress) {
+		const PoolType pool = PoolType::PeriphToUsb;
+		const IndexType p = usbBufferGet( pool );
+		if ( InvalidIndex != p ) {
+			_usbTxInProgress = true;
+			usbBufferCheckout( pool, p );
+			uint8_t* const data = usbBufferGetDataPtr( pool, p );
+			const size_t size = usbBufferGetSize( pool, p );
+			usbd_ep_write_packet( usbDevice, usbInEndpointId, data, size );
+			usbBufferFree( pool, p );
+		}
 	}
-	//intUnlock(key);
+	intUnlock(key);
 }
 
 

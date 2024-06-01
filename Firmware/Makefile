@@ -22,7 +22,7 @@ TARGET = Firmware
 # debug build?
 DEBUG = 1
 # optimization
-OPT = -O0
+OPT = -O1
 
 
 #######################################
@@ -131,6 +131,7 @@ libopencm3/lib/stm32/common/usart_common_f124.c \
 libopencm3/lib/stm32/common/timer_common_all.c \
 libopencm3/lib/stm32/common/st_usbfs_core.c \
 libopencm3/lib/stm32/st_usbfs_v2.c \
+libopencm3/lib/stm32/can.c \
 libopencm3/lib/usb/usb.c \
 libopencm3/lib/usb/usb_f107.c \
 libopencm3/lib/usb/usb_dwc_common.c \
@@ -144,9 +145,11 @@ App/IntLock.s
 
 APP_CPP_SOURCES= \
 App/Lin.cpp \
+App/Can.cpp \
 App/Usb.cpp \
 App/Main.cpp \
 App/SystemInit.cpp \
+App/SystemTimer.cpp \
 App/UsbPacketBuffer.cpp
 
 

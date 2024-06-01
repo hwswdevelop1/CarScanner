@@ -17,7 +17,7 @@ namespace Can {
 struct Module;
 
 Status init();
-Status process( Module* const module, const IndexType p, const UsbPacketId packetId );
+Status process( const IndexType p, const UsbPacketId packetId );
 
 }
 

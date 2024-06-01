@@ -10,7 +10,7 @@
 #include "IntLock.h"
 
 static CircularPacketBuffer<4 * 1024, 256>   usbToPeriph;
-static CircularPacketBuffer<4 * 1024, 256>   periphToUsb;
+static CircularPacketBuffer<8 * 1024, 256>   periphToUsb;
 
 void usbSendPacket();
 void usbSetAck();

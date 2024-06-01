@@ -78,11 +78,11 @@ extern "C" void systemInit(){
 
 	//AFIO_MAPR = AFIO_MAPR_SWJ_CFG_JTAG_OFF_SW_ON;
 
-	//systick_set_frequency(1000, 72000000);
-	//nvic_set_priority( NVIC_SYSTICK_IRQ, 0x10);
-	//nvic_enable_irq(NVIC_SYSTICK_IRQ);
-	//systick_interrupt_enable();
-	//systick_counter_enable();
+	systick_set_frequency(1000, 72000000);
+	nvic_set_priority( NVIC_SYSTICK_IRQ, 0x10);
+	nvic_enable_irq(NVIC_SYSTICK_IRQ);
+	systick_interrupt_enable();
+	systick_counter_enable();
 
 	gpio_set_mode(GPIOA, GPIO_MODE_OUTPUT_50_MHZ, GPIO_CNF_OUTPUT_ALTFN_PUSHPULL, GPIO8);
 	rcc_set_mco(RCC_CFGR_MCO_HSE);

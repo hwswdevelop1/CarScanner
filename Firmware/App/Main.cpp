@@ -87,13 +87,11 @@ extern "C" void systemMain() {
 			break;
 
 			case UsbPacketId::UsbDataToCan:
+			case UsbPacketId::UsbToCanBaud:
+			case UsbPacketId::UsbToCanEcho:
 			{
 				UsbDataToCanHead* const head = reinterpret_cast<UsbDataToCanHead* const>(data);
-				if ( 0 == head->canId ) {
-					Can::process( can1, p, *usbPacketId );
-				} else {
-					Can::process( can2, p, *usbPacketId );
-				}
+				Can::process( p, *usbPacketId );
 			}
 			break;
 

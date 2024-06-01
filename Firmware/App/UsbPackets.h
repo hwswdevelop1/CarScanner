@@ -19,7 +19,9 @@ enum class UsbPacketId : uint32_t {
 	UsbToLinAnswer,
 	LinDataToUsb,
 	CanDataToUsb,
-	UsbDataToCan
+	UsbDataToCan,
+	UsbToCanBaud,
+	UsbToCanEcho
 };
 
 enum class LinFrameType : uint8_t {
@@ -119,6 +121,33 @@ struct UsbDataToCanHead {
 	WaitMode	 wait;
 };
 
+enum class CanBaud : uint32_t {
+	Can_33Kbit = 33000,
+	Can_100Kbit = 100000,
+	Can_125Kbit = 125000,
+	Can_250Kbit = 250000,
+	Can_500Kbit = 500000,
+	Can_1Mbit = 1000000
+};
+
+
+enum class CanEcho : uint32_t  {
+	Disabled,
+	Enabled
+};
+
+struct UsbToCanBaudHead {
+	UsbPacketId  id = UsbPacketId::UsbToCanBaud;
+	uint32_t	 canId = 0;
+	CanBaud		 baud;
+};
+
+struct UsbToCanEchoHead {
+	UsbPacketId  id = UsbPacketId::UsbToCanEcho;
+	uint32_t	 canId = 0;
+	CanEcho		 echo = CanEcho::Enabled;
+};
+
 
 struct UsbHeadSize {
 	UsbPacketId 	usbPacketId;
@@ -136,6 +165,10 @@ constexpr const UsbHeadSize usbPacketHeadTypes[] = {
 		{ UsbPacketId::LinDataToUsb, sizeof(LinDataToUsbHead) },
 		{ UsbPacketId::CanDataToUsb, sizeof(CanDataToUsbHead) },
 		{ UsbPacketId::UsbDataToCan, sizeof(UsbDataToCanHead) },
+		{ UsbPacketId::UsbToCanBaud, sizeof(UsbToCanBaudHead) },
+		{ UsbPacketId::UsbToCanEcho, sizeof(UsbToCanEchoHead) },
+
+
 };
 
 inline uint32_t usbPacketHeadSize(const UsbPacketId id) {
